@@ -1,0 +1,43 @@
+@use "../../styles/variables";
+
+.header {
+  background-color: variables.$primary-color;
+  font-family: Inter;
+
+  &Container {
+    justify-content: space-between !important;
+
+    &Logo {
+      padding-right: 1rem;
+    }
+
+    &Social {
+      a {
+        width: 40px;
+        height: 40px;
+        background-color: variables.$main-font;
+        text-align: center;
+        padding: 0.4rem;
+        margin-right: 0.2rem;
+      }
+    }
+
+    &Nav {
+      &Menu {
+        color: variables.$main-font;
+
+        li {
+          padding-right: 2rem;
+        }
+
+        :nth-child(5) {
+          color: black;
+        }
+
+        :hover {
+          color: variables.$secondary-color;
+        }
+      }
+    }
+  }
+}

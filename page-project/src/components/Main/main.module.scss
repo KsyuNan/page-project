@@ -1,0 +1,42 @@
+@use "../../styles/variables";
+
+.main {
+  background-color: variables.$primary-color;
+
+  &Container {
+    &Content {
+      color: variables.$main-font;
+      padding-bottom: 1.5rem;
+
+      h1 {
+        font-size: 4rem;
+        text-align: left;
+        line-height: 78px;
+        letter-spacing: 1.3px;
+      }
+
+      h6 {
+        font-size: 1.5rem;
+        line-height: 28.8px;
+        letter-spacing: 0.48px;
+      }
+
+      p {
+        color: variables.$font-color;
+        text-align: left;
+        line-height: 28.5px;
+      }
+
+      &Btn {
+        padding: 1em 0;
+      }
+
+      &List {
+        &Item {
+          padding-left: 2.5rem;
+          padding-right: 2rem;
+        }
+      }
+    }
+  }
+}

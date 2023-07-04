@@ -1,13 +1,16 @@
-
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.scss'
+import './styles/reset.scss'
+import  { Header } from './components/Header/Header'
+import { Main } from './components/Main/Main'
 
 function App() {
 
   return (
     <>
-      <h1>Hello</h1>
+      <Header />
+      <Main />
     </>
   )
 }
