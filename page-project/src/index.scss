@@ -110,3 +110,14 @@ a {
 .desc {
   color: variables.$font-color;
 }
+
+.authorBtn {
+  padding: 0.5rem 2rem;
+  background: variables.$secondary-color;
+  border: 2px solid transparent;
+  margin: 1.5rem 0;
+}
+
+.printed {
+  color: variables.$primary-color;
+}

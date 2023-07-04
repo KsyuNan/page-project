@@ -4,13 +4,16 @@ import './App.scss'
 import './styles/reset.scss'
 import  { Header } from './components/Header/Header'
 import { Main } from './components/Main/Main'
-
+import { AuthorBook } from './components/AuthorBook/AuthorBook'
+import { About } from './components/About/About'
 function App() {
 
   return (
     <>
       <Header />
       <Main />
+      <AuthorBook />
+      <About />
     </>
   )
 }
