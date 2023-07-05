@@ -6,6 +6,10 @@ import  { Header } from './components/Header/Header'
 import { Main } from './components/Main/Main'
 import { AuthorBook } from './components/AuthorBook/AuthorBook'
 import { About } from './components/About/About'
+import { Trusted } from './components/Trusted/Trusted'
+import { GetBook } from './components/GetBook/GetBook'
+import { Learn } from './components/Learn/Learn'
+import { Pages } from './components/Pages/Pages'
 function App() {
 
   return (
@@ -14,6 +18,10 @@ function App() {
       <Main />
       <AuthorBook />
       <About />
+      <Trusted />
+      <GetBook />
+      <Learn />
+      <Pages />
     </>
   )
 }

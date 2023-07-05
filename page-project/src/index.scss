@@ -16,7 +16,7 @@ a {
 }
 
 .paddings {
-  padding: 1.5rem;
+  padding: 3rem 0;
 }
 
 .innerWidth {
@@ -56,6 +56,9 @@ a {
   background-color: variables.$secondary-color;
   border: 3px solid transparent;
   margin: 0.5rem;
+  font-size: 19px;
+  font-family: "Cardo";
+  font-weight: 400;
 }
 
 .btn-main:hover {
@@ -63,6 +66,14 @@ a {
   border-bottom: 3px solid variables.$main-font;
   color: variables.$main-font;
   background-color: transparent;
+}
+
+.btn-get {
+  border: 2px solid variables.$secondary-color;
+  padding: 1rem 3.2rem;
+  background-color: transparent;
+  margin: 2rem 0;
+  color: variables.$main-font;
 }
 
 .cardo {
@@ -120,4 +131,14 @@ a {
 
 .printed {
   color: variables.$primary-color;
+}
+
+.title {
+  font-size: 2.3rem;
+  padding-top: 2rem;
+  color: variables.$primary-color;
+}
+
+.p3 {
+  padding: 3rem 0;
 }

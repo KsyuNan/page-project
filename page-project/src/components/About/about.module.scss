@@ -1,0 +1,29 @@
+@use "../../styles/variables";
+
+.about {
+  background-color: #f5f8fc;
+  justify-content: space-between !important;
+  &Container {
+    &Content {
+      position: relative;
+      &Title {
+        text-align: left;
+      }
+
+      p {
+        text-align: left;
+        color: #969aa0;
+        padding: 2rem 0;
+      }
+
+      ::before {
+        content: "";
+        width: 30px;
+        height: 1rem;
+        color: variables.$secondary-color;
+        top: 1rem;
+        position: absolute;
+      }
+    }
+  }
+}

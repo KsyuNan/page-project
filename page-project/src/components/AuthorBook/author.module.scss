@@ -2,6 +2,7 @@
 
 .author {
   &Container {
+    justify-content: space-between !important;
     &Title {
       h2 {
         font-size: 2.3rem;

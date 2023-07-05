@@ -1,0 +1,25 @@
+@use "../../../../styles/variables";
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  &Item {
+    padding: 2rem;
+    margin: 1rem;
+    background-color: #f4f8ff;
+    text-align: start;
+
+    span {
+      border-radius: 50%;
+      padding: 0.4rem 0.6rem;
+      background-color: variables.$secondary-color;
+    }
+
+    p {
+      color: variables.$primary-color;
+      font-size: 24px;
+      margin: 2rem 0;
+    }
+  }
+}
