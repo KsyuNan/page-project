@@ -1,0 +1,22 @@
+@use "../../styles/variables";
+
+.Readers {
+  display: fle;
+  &Container {
+    &Desc {
+      text-align: start;
+
+      h5 {
+        color: variables.$primary-color;
+        font-size: 22px;
+        line-height: 33px;
+        word-wrap: break-word;
+      }
+
+      p {
+        line-height: 34.2px;
+        color: variables.$paragraph-color;
+      }
+    }
+  }
+}

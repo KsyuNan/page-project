@@ -10,6 +10,7 @@ import { Trusted } from './components/Trusted/Trusted'
 import { GetBook } from './components/GetBook/GetBook'
 import { Learn } from './components/Learn/Learn'
 import { Pages } from './components/Pages/Pages'
+import { Readers } from './components/Readers/Readers'
 function App() {
 
   return (
@@ -22,6 +23,7 @@ function App() {
       <GetBook />
       <Learn />
       <Pages />
+      <Readers />
     </>
   )
 }

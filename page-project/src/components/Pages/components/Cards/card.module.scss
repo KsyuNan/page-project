@@ -1,0 +1,31 @@
+@use "../../../../styles/variables";
+
+.Cards {
+  display: flex;
+  &Card {
+    background-color: #fff;
+    padding: 1.5rem 5rem;
+    text-align: start;
+    margin-right: 2rem;
+    width: 45%;
+
+    &Title {
+      h6 {
+        font-size: variables.$primary-color;
+        font-size: 24px;
+        padding-bottom: 1rem;
+      }
+
+      p {
+        color: variables.$paragraph-color;
+        padding-left: 2rem;
+        padding-bottom: 1rem;
+      }
+
+      &Sub {
+        display: flex;
+        padding-right: 4rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@use "../../../../styles/variables";
+
+.rating {
+  display: flex;
+  margin: 0.7rem 0;
+
+  span {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid variables.$secondary-color;
+    margin-right: 0.2rem;
+  }
+
+  &Circle {
+    background-color: variables.$secondary-color;
+  }
+}

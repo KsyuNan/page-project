@@ -15,6 +15,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-size: 22px;
+}
+
 .paddings {
   padding: 3rem 0;
 }
@@ -55,7 +59,7 @@ a {
   padding: 0.7rem 2rem;
   background-color: variables.$secondary-color;
   border: 3px solid transparent;
-  margin: 0.5rem;
+  margin: 1rem 0;
   font-size: 19px;
   font-family: "Cardo";
   font-weight: 400;
@@ -74,6 +78,16 @@ a {
   background-color: transparent;
   margin: 2rem 0;
   color: variables.$main-font;
+}
+
+.btn-page {
+  padding: 0.7rem 6rem;
+  background-color: variables.$secondary-color;
+  border: 3px solid transparent;
+  margin: 1rem 0;
+  font-size: 19px;
+  font-family: "Cardo";
+  font-weight: 400;
 }
 
 .cardo {
@@ -118,6 +132,10 @@ a {
   top: 0.1rem;
 }
 
+.checked {
+  background-color: #ffca42;
+}
+
 .desc {
   color: variables.$font-color;
 }
@@ -141,4 +159,9 @@ a {
 
 .p3 {
   padding: 3rem 0;
+}
+
+.blueSub {
+  color: variables.$primary-color;
+  font-size: 24px;
 }
