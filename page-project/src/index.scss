@@ -90,6 +90,14 @@ p {
   font-weight: 400;
 }
 
+.subscribe {
+  background-color: variables.$primary-color;
+  display: block;
+  color: #fff;
+  padding: 0 4rem;
+  border-radius: 3px;
+}
+
 .cardo {
   font-family: "Cardo", serif;
 }
@@ -154,6 +162,8 @@ p {
 .title {
   font-size: 2.3rem;
   padding-top: 2rem;
+  line-height: 50.4px;
+  font-size: 42px;
   color: variables.$primary-color;
 }
 

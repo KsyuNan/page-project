@@ -1,0 +1,33 @@
+@use "../../../../styles/variables";
+
+.Cards {
+  justify-content: space-between !important;
+  &Card {
+    width: 33%;
+    background-color: #fff;
+    border-radius: 1%;
+
+    &Desc {
+      width: 100%;
+      text-align: start;
+      padding: 1rem;
+
+      h4 {
+        font-size: 24px;
+        color: variables.$primary-color;
+        line-height: 33.6px;
+      }
+
+      p {
+        color: variables.$paragraph-color;
+        padding: 0.5rem 0;
+        line-height: 30.4px;
+      }
+
+      &Data {
+        display: flex;
+        flex-direction: space-between;
+      }
+    }
+  }
+}

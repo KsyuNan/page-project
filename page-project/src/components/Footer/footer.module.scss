@@ -1,0 +1,28 @@
+@use "../../styles/variables";
+
+.Footer {
+  background-color: variables.$primary-color;
+  color: #fff;
+
+  > div {
+    text-align: start;
+  }
+
+  &Container {
+    &Content {
+      justify-content: space-between !important;
+      h6 {
+        font-size: 24px;
+        margin-bottom: 1rem;
+      }
+
+      &Item {
+
+        li {
+
+          
+        }
+      }
+    }
+  }
+}

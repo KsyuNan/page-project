@@ -1,9 +1,36 @@
 import styles from './author.module.scss'
-import book1 from '../../assets/book1.png'
-import book2 from '../../assets/book2.png'
+//import book1 from '../../assets/book1.png'
+//import book2 from '../../assets/book2.png'
+ import { Card } from './components/Card/Card'
+ import dataAuthorBook from '../../data'
 
 export const AuthorBook = () => {
-    return (
+    return ( 
+      <section className={`${styles.author}`}>
+        <div className={`${styles.authorContainer} container paddings`}>
+          <div className={`${styles.authorContainerTitle} cardo`}>
+              <h2>The Author’s Book</h2>
+            </div>
+          <div className={`flexCenter paddings`}>
+            {dataAuthorBook.map(dataAuthorBook => {
+              <Card
+                key={dataAuthorBook.id}
+                name={dataAuthorBook.name}
+                image={dataAuthorBook.image}
+                price={dataAuthorBook.price}
+                text={dataAuthorBook.text}
+                type={dataAuthorBook.type}
+                button={dataAuthorBook.button}
+              />
+            })}
+          </div>
+        </div>
+      </section>
+ )
+}
+
+
+      {/*
         <section className={`${styles.author}`}>
             <div className={`${styles.authorContainer} container paddings`}>
 
@@ -40,5 +67,6 @@ export const AuthorBook = () => {
             </div>
             </div>
         </section>
-    )
-}
+
+    */}
+   

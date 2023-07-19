@@ -5,11 +5,11 @@ export const Pages = () => {
     return (
      <section className={`${styles.pages} p3`}>
     
-        <div className={` ${styles.pagesContainerTitle}  title  container `}>
+        <div className={` ${styles.pagesContainerTitle} title container`}>
             <h2>Enhance knowledge & Vision</h2>
             <span></span>
         </div>
-        <div className={`${styles.pagesContainer} paddings innerWidth container flexCenter`}>
+        <div className={`${styles.pagesContainer} paddings container flexCenter`}>
           <Cards />
           <div className={`${styles.pagesContainerDesc}`}>
             <button className={`btn-page`}>Start a 15-Days Free Trail</button>

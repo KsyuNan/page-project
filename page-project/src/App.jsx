@@ -11,6 +11,9 @@ import { GetBook } from './components/GetBook/GetBook'
 import { Learn } from './components/Learn/Learn'
 import { Pages } from './components/Pages/Pages'
 import { Readers } from './components/Readers/Readers'
+import { Articles } from './components/Articles/Articles'
+import { Subscribe } from './components/Subscribe/Subscribe'
+import { Footer } from './components/Footer/Footer'
 function App() {
 
   return (
@@ -24,6 +27,9 @@ function App() {
       <Learn />
       <Pages />
       <Readers />
+      <Articles />
+      <Subscribe />
+      <Footer />
     </>
   )
 }

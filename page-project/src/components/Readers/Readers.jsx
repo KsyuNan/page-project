@@ -4,8 +4,8 @@ import { Cards } from './components/Cards/Cards';
 
 export const Readers = () => {
     return (
-     <section className={`${styles.Readers}`}>
-        <div className={`${styles.ReadersContainer} paddings container innerWidth flexCenter`}>
+     <section className={`${styles.Readers} p3`}>
+        <div className={`${styles.ReadersContainer} paddings container flexCenter`}>
             <div className={`${styles.ReadersContainerDesc}`}>
                <div className={`title`}>
                  <h2>Words From Our <br/> Readers</h2>

@@ -1,0 +1,26 @@
+@use "../../../../styles/variables";
+
+.Card {
+  padding: 1.5rem;
+
+  &Desc {
+    padding: 1rem;
+
+    h5 {
+      font-size: 32px;
+      color: variables.$primary-color;
+      line-height: 38.4px;
+    }
+
+    span {
+      color: variables.$secondary-color;
+    }
+
+    p {
+      color: #969aa0;
+      line-height: 28.5px;
+      text-align: start;
+      margin: 1rem 0;
+    }
+  }
+}

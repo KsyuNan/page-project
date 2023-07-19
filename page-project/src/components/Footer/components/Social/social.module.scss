@@ -1,0 +1,19 @@
+@use "../../../../styles/variables";
+
+.Social {
+  margin: 1rem 0;
+  &List {
+    display: flex;
+    justify-content: start;
+
+    li {
+      color: #fff;
+      padding: 0.8rem;
+      border: 2px solid variables.$secondary-color;
+      margin-right: 0.3rem;
+      a {
+        font-size: 1rem;
+      }
+    }
+  }
+}
