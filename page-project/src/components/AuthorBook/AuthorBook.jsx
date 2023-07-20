@@ -7,6 +7,7 @@ export const AuthorBook = () => {
       <section className={`${styles.author}`}>
         <div className={`${styles.authorTitle} cardo flexCenter paddings`}>
           <h2>The Author’s Book</h2>
+          <div className={`${styles.authorTitleLine} titleLine`}></div>
         </div>
         <div className={`${styles.authorContainer} container paddings`}>
           

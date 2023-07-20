@@ -1,32 +1,45 @@
 @use "../../../../styles/variables";
 
-.Cards {
-  justify-content: space-between !important;
-  &Card {
-    width: 33%;
-    background-color: #fff;
-    border-radius: 1%;
+.Card {
+  background-color: #fff;
+  border-radius: 1%;
 
-    &Desc {
-      width: 100%;
-      text-align: start;
-      padding: 1rem;
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 
-      h4 {
-        font-size: 24px;
-        color: variables.$primary-color;
-        line-height: 33.6px;
-      }
+  &Desc {
+    text-align: start;
+    padding: 2rem;
 
-      p {
-        color: variables.$paragraph-color;
-        padding: 0.5rem 0;
-        line-height: 30.4px;
-      }
+    h4 {
+      font-size: 30px;
+      color: variables.$primary-color;
+      line-height: 33.6px;
+      line-height: 1.4;
+      font-weight: 700;
+    }
 
-      &Data {
-        display: flex;
-        flex-direction: space-between;
+    p {
+      color: variables.$paragraph-color;
+      padding: 0.5rem 0;
+      line-height: 30.4px;
+    }
+
+    &Data {
+      color: variables.$primary-color;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 23px;
+      padding: 1rem 0;
+      a {
+        text-transform: capitalize;
+        line-height: 22.8px;
+        letter-spacing: 0.38px;
+        word-wrap: break-word;
+        border-bottom: 2px solid variables.$primary-color;
       }
     }
   }

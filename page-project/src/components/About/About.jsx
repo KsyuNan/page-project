@@ -11,6 +11,7 @@ export const About = () => {
                <div className={`${styles.aboutContainerContent}`}>
                     <div className={` ${styles.aboutContainerContentTitle}  title`}>
                         <h2>About the Author</h2>
+                        <div className={`${styles.aboutContainerContentTitleLine} titleLineLeft`}></div>
                     </div>
                     <p>We believe that bookstores are essential to a healthy culture. <br/> They’re where authors can connect with readers, where we <br/> discover new writers, where children get hooked on the thrill <br/> of reading that can last a lifetime.</p>
                   <div className={`${styles.aboutContainerContentCounter} flexCenter`}>

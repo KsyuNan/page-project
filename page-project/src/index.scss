@@ -34,9 +34,12 @@ p {
   align-items: center;
   flex-wrap: wrap;
 }
+.d-flex {
+  display: flex;
+}
 
 .container {
-  max-width: 1420px;
+  max-width: 1480px;
   margin: 0 auto;
   text-align: center;
 }
@@ -170,7 +173,7 @@ p {
 
 .title {
   font-size: 2.3rem;
-  padding-top: 2rem;
+  padding: 2rem 0;
   line-height: 50.4px;
   font-size: 42px;
   color: variables.$primary-color;
@@ -183,4 +186,37 @@ p {
 .blueSub {
   color: variables.$primary-color;
   font-size: 24px;
+}
+
+.titleLine {
+  width: 4rem;
+  text-align: center;
+  height: 0.3rem;
+  background-color: variables.$secondary-color;
+}
+
+/*
+.titleLine:after {
+  position: absolute;
+  content: "";
+  width: 4rem;
+  text-align: center;
+  height: 0.3rem;
+  background-color: variables.$secondary-color;
+  top: 3.5rem;
+  left: -11rem;
+}
+*/
+.titleLineLeft {
+  position: relative;
+}
+
+.titleLineLeft:after {
+  position: absolute;
+  content: "";
+  width: 4rem;
+  height: 0.3rem;
+  background-color: variables.$secondary-color;
+  top: 1rem;
+  left: 0;
 }

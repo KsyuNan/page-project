@@ -2,4 +2,11 @@
 
 .Articles {
   background-color: variables.$background-color;
+  &Container {
+    &Cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+  }
 }
