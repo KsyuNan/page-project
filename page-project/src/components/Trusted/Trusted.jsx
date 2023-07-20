@@ -1,5 +1,6 @@
 import styles from './trusted.module.scss'
 import { Card } from './components/Card/Card'
+import dataTrusted from '../../data'
 
 export const Trusted = () => {
     return (
