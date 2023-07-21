@@ -7,7 +7,7 @@ export const Cards = (props) => {
               <h4 className={`cardo`}>{props.title}</h4>
               <p className={`inter`}>{props.text}</p>
               <div className={`${styles.CardTitleSub}`}>
-                <div className={`${styles.CardTitleSubData}`}>
+                <div className={`${styles.CardTitleSubData} `}>
                   <div className={`yellow-circle `}></div>
                   <p><span className={`blueSub`}>{props.pages}</span>{props.count}</p>
                 </div>

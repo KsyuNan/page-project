@@ -1,1 +1,34 @@
 @use "../../styles/variables";
+
+.learn {
+  &Container {
+    justify-content: space-between !important;
+    &Cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-column-gap: 2rem;
+      grid-row-gap: 2rem;
+      width: 50%;
+    }
+
+    &Desc {
+      position: relative;
+      img {
+        position: relative;
+        max-width: 100%;
+        height: auto;
+
+        &:before {
+          position: absolute;
+          border: 7px solid variables.$secondary-color;
+          top: 6rem;
+          left: 4rem;
+          width: 100%;
+          height: 100%;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}

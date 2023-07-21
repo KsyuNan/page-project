@@ -20,7 +20,7 @@ export const Readers = () => {
                 <Rating />
                 <p>(4.8/5)</p>
               </div>
-               <h5>Overall Customer Ratings</h5>
+               <span>Overall Customer Ratings</span>
                
             </div>
             <div className={`${styles.ReadersContainerCards}`}>
