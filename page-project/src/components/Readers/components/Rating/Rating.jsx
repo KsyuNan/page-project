@@ -8,9 +8,7 @@ export const Rating = () => {
         <span className={`${styles.ratingCircle}`}></span>
         <span className={`${styles.ratingCircle}`}></span>
         <span className={`${styles.ratingCircle}`}></span>
-        <span className={`${styles.ratingHalf}`}></span>
-        <p>(4.8/5)</p>
+        <span className={`${styles.ratingHalf}`}></span>      
        </div>
-      
-    )
+    ) 
 }
