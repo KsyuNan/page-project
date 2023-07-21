@@ -25,6 +25,15 @@ h2 {
   text-transform: capitalize;
 }
 
+h4 {
+  font-size: 26px;
+  color: variables.$primary-color;
+  font-weight: 700;
+  line-height: 28.8px;
+  word-wrap: break-word;
+  padding-bottom: 1rem;
+}
+
 input::placeholder {
   font-size: 20px;
   left: 0;

@@ -5,8 +5,8 @@ import { Card } from './components/Card/Card'
 export const Learn = () => {
     return (
      <section className={`${styles.learn}`}>
-        <div className={`title flexCenter`}>
-            <h1>What Will You Learn?</h1>
+        <div className={`title flexCenter cardo`}>
+            <h2>What Will You Learn?</h2>
         </div>
       <div className={`${styles.learnContainer} paddings innerWidth container flexCenter`}>   
         <Card/>

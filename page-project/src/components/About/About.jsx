@@ -9,7 +9,7 @@ export const About = () => {
             <div className={`${styles.aboutContainer} paddings innerWidth flexCenter`}>
                <img src={about} alt="" />
                <div className={`${styles.aboutContainerContent}`}>
-                    <div className={` ${styles.aboutContainerContentTitle}  title`}>
+                    <div className={` ${styles.aboutContainerContentTitle} cardo title`}>
                         <h2>About the Author</h2>
                         <div className={`${styles.aboutContainerContentTitleLine} titleLineLeft`}></div>
                     </div>

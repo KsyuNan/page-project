@@ -5,7 +5,7 @@ import dataTrusted from './data'
 export const Trusted = () => {
     return (
         <section className={`${styles.trusted} p3`}>
-            <div className={`${styles.trustedContainerTitle} title flexCenter container`}>
+            <div className={`${styles.trustedContainerTitle} title cardo flexCenter container`}>
                  <h2>Trusted By The Best</h2>
                  <div className={`${styles.trustedContainerTitle} titleLine`}></div>
                </div>

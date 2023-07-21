@@ -7,7 +7,7 @@ export const Readers = () => {
      <section className={`${styles.Readers} p3`}>
         <div className={`${styles.ReadersContainer} paddings container flexCenter`}>
             <div className={`${styles.ReadersContainerDesc}`}>
-               <div className={`title`}>
+               <div className={`title cardo`}>
                  <h2>Words From Our <br/> Readers</h2>
                </div>
                <p className={`p3 inter`}>We believe that bookstores are essential to a <br/> healthy culture. 

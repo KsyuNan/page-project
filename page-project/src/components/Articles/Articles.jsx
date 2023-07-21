@@ -6,7 +6,7 @@ import dataArticles from './data'
 export const Articles = () => {
     return (
      <section className={`${styles.Articles} p3`}>
-        <div className={`title flexCenter`}>
+        <div className={`title flexCenter cardo`}>
             <h2>Articles & Resources</h2>
         </div>
         <div className={`${styles.ArticlesContainer} paddings container d-flex`}>

@@ -6,8 +6,8 @@ export const GetBook = () => {
         <section className={`${styles.getbook} p3`}>
             <div className={`${styles.getbookContainer} paddings innerWidth flexCenter`}>
                 <div className={`${styles.getbookContainerContent}`}>
-                    <div className={` title`}>
-                        <h1>Get Book Copy Today!</h1>
+                    <div className={`cardo title`}>
+                        <h2>Get Book Copy Today!</h2>
                     </div>
                     <p className={`inter`}>We believe that bookstores are essential to a healthy <br/> 
                        culture. They’re where authors can connect with readers.</p>
