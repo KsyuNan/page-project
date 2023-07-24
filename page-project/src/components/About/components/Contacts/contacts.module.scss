@@ -8,7 +8,8 @@
   &Content {
     display: flex;
     position: relative;
-    padding: 1rem;
+    padding: 1.5rem;
+    align-items: center;
 
     img {
       width: 30%;
@@ -28,14 +29,19 @@
     }
 
     &Title {
-      padding: 0.5rem;
+      padding: 0 2rem;
       display: flex;
       flex-direction: column;
+      text-align: left;
+
       span {
         color: variables.$font-color;
         padding: 0.5rem;
-        ::nth-child(1) {
+        font-size: 1.5rem;
+        &:nth-child(1) {
           color: variables.$secondary-color;
+          font-weight: 700;
+          line-height: 1.2;
         }
       }
     }

@@ -9,7 +9,7 @@ export const Learn = () => {
         <div className={`title flexCenter cardo`}>
             <h2>What Will You Learn?</h2>
         </div>
-      <div className={`${styles.learnContainer}  paddings container flexCenter`}>   
+      <div className={`${styles.learnContainer} paddings container flexCenter`}>   
         <div className={`${styles.learnContainerCards}`}>
         {dataLearn.map(dataLearn => (
           <Card
@@ -17,8 +17,7 @@ export const Learn = () => {
            number={dataLearn.number}
            text={dataLearn.text}
           />
-        ))}
-          
+        ))} 
         </div>
          <div className={`${styles.learnContainerDesc} `}>
            <img src={'https://assets.website-files.com/615aa2992a14b77739e3c502/61f3b5925fc6f6fbe6dc1fee_learn-image.jpg'} alt="" />

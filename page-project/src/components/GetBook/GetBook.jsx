@@ -4,7 +4,7 @@ import getBook from '../../assets/getBook.png'
 export const GetBook = () => {
     return (
         <section className={`${styles.getbook} p3`}>
-            <div className={`${styles.getbookContainer} paddings innerWidth flexCenter`}>
+            <div className={`${styles.getbookContainer} paddings container flexCenter`}>
                 <div className={`${styles.getbookContainerContent}`}>
                     <div className={`cardo title`}>
                         <h2>Get Book Copy Today!</h2>

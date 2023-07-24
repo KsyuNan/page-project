@@ -8,9 +8,9 @@ export const Contacts = () => {
              <img src={qr} alt="" />
              <span className={`img-border`}></span>
              <div className={`${styles.contactsContentTitle}`}>
-              <span>John Abraham , Ph.d</span>
-              <span>Mail: johnabraham@gmail.com</span>
-              <span>Phone: (+2) 123 545 9000</span>
+              <span className={`cardo`}>John Abraham , Ph.d</span>
+              <span className={`cardo`}>Mail: johnabraham@gmail.com</span>
+              <span className={`cardo`}>Phone: (+2) 123 545 9000</span>
            </div>
            </div>
         </div>

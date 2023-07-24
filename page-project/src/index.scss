@@ -252,3 +252,10 @@ input::placeholder {
   height: 100%;
   z-index: -1;
 }
+
+.border-left,
+.border-right {
+  border-left: 0.2rem solid variables.$secondary-color;
+  height: 8rem;
+  margin-bottom: 2rem;
+}
