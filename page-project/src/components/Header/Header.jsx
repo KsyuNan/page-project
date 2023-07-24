@@ -8,6 +8,7 @@ export const Header = () => {
             <div className={` ${styles.headerContainer} paddings flexCenter container`}>
                 <div className={`${styles.headerContainerLogo} flexStart`}>
                   <img src={logo} alt="" width={100}/>
+                  
 
                 <div className={` ${styles.headerContainerSocial} flexStart`}>
                   <a><TiSocialFacebook size={20}/></a>
@@ -15,6 +16,7 @@ export const Header = () => {
                   <a><TiSocialLinkedin size={20}/></a>
                 </div>
                 </div>
+                
 
                 <nav className={`${styles.headerContainerNav} flexCenter`}>
                     <ul className={`${styles.headerContainerNavMenu} flexCenter`}>
