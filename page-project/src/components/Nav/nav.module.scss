@@ -1,0 +1,32 @@
+@use "../../styles/variables";
+
+.navbar {
+  background-color: variables.$primary-color;
+
+  &Container {
+    justify-content: space-between !important;
+    color: variables.$main-font;
+
+    &Logo {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 10rem;
+      }
+    }
+
+    &Navmenu {
+      display: flex;
+      justify-content: space-between;
+
+      &Item {
+        padding-left: 3rem;
+        font-size: 1.5rem;
+        &:hover {
+          color: variables.$secondary-color;
+        }
+      }
+    }
+  }
+}

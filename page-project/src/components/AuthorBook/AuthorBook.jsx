@@ -2,6 +2,7 @@ import styles from './author.module.scss'
  import { AuthorCard } from './components/AuthorCard/AuthorCard'
  import dataAuthorBook from '../../data'
 
+
 export const AuthorBook = () => {
     return ( 
       <section className={`${styles.author}`}>
