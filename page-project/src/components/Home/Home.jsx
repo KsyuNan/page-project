@@ -18,10 +18,9 @@ import { Footer } from '../Footer/Footer'
 export const Home = () => {
     return (
         <>
-         <Nav />
+         {/*<Nav />*/}
          {/*<Header /> */}
-         <Main />
-         
+         <Main />     
          <AuthorBook />
          <About />
          <Trusted />

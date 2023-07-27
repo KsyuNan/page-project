@@ -1,8 +1,9 @@
 import './App.scss'
 import './styles/reset.scss'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Home } from './components/Home/Home'
 import Nav from './components/Nav/Nav'
+import { AboutPage } from './pages/AboutPage/AboutPage';
 
 
 function App() {
@@ -10,10 +11,10 @@ function App() {
   return (
     <Router>
       <Nav />
-      <Routes>
-        <Route path='/' exact component={Home}/>
+      <Routes>    
+        <Route path='/home' element={<Home />}/>
+        <Route path='/about' element={<AboutPage/>}/>
       </Routes>
-    
     </Router>
   )
 }
