@@ -1,0 +1,28 @@
+@use "../../styles/variables";
+
+.title {
+  background-color: variables.$primary-color;
+  padding: 5rem 0;
+  &Container {
+    width: 33%;
+    h2 {
+      color: variables.$main-font;
+      font-size: 4rem;
+    }
+
+    div {
+      border-bottom: 3px solid variables.$secondary-color;
+      width: 10%;
+      margin: 0 auto;
+      padding-top: 2rem;
+    }
+
+    p {
+      padding: 2rem;
+      font-size: 24px;
+      color: variables.$font-color;
+      line-height: 1.7;
+      font-weight: 400;
+    }
+  }
+}

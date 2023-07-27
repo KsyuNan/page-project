@@ -84,6 +84,7 @@ input::placeholder {
 }
 
 .btn-main {
+  display: block;
   padding: 1rem 2rem;
   background-color: variables.$secondary-color;
   border: 0.3rem solid transparent;
@@ -117,6 +118,23 @@ input::placeholder {
   font-size: 19px;
   font-family: "Cardo";
   font-weight: 400;
+}
+
+.btn-contact {
+  padding: 2rem 6rem;
+  background-color: variables.$secondary-color;
+  border: 3px solid transparent;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  font-family: "Cardo";
+  font-weight: 700;
+  color: variables.$primary-color;
+  letter-spacing: 0.03em;
+
+  &:hover {
+    border: 3px solid variables.$secondary-color;
+    background-color: transparent;
+  }
 }
 
 .subscribe {
@@ -266,4 +284,24 @@ input::placeholder {
 
 .active {
   color: variables.$secondary-color;
+}
+
+.social {
+  a {
+    i {
+      color: variables.$primary-color;
+      padding-right: 0.8rem;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.dotted-border {
+  border-left: 2px dotted black;
+  height: 3rem;
 }

@@ -1,0 +1,54 @@
+@use "../../../../styles/variables";
+
+.story {
+  padding: 4rem 0;
+  &Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      font-size: 1.5rem;
+      color: variables.$paragraph-color;
+    }
+
+    &Desc {
+      text-align: left;
+      width: 45%;
+
+      h2 {
+        font-size: 3rem;
+        color: variables.$primary-color;
+      }
+
+      &Award {
+        margin: 2rem;
+        &Item {
+          display: flex;
+          flex-direction: row;
+
+          &Num {
+            h5 {
+              font-size: 2.5rem;
+              color: variables.$primary-color;
+              background-color: variables.$secondary-color;
+              padding: 1rem;
+            }
+            div {
+              margin-left: 2rem;
+            }
+          }
+
+          &Title {
+            padding-left: 2rem;
+
+            div {
+              margin: 3rem 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
