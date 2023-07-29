@@ -1,0 +1,44 @@
+@use "../../../../styles/variables";
+
+.Kit {
+  &Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &Desc {
+      text-align: start;
+      width: 52%;
+
+      p {
+        color: variables.$paragraph-color;
+        font-size: 1.4rem;
+      }
+
+      &Adress {
+        padding: 2rem 0;
+
+        &Item {
+          display: flex;
+          align-items: flex-start;
+          padding: 1rem 0;
+
+          h6 {
+            font-size: 2rem;
+          }
+
+          &Logo {
+            font-size: 3rem;
+            padding: 1rem 1.3rem;
+            background-color: variables.$primary-color;
+            color: variables.$secondary-color;
+          }
+
+          &Sub {
+            padding: 0 2rem;
+          }
+        }
+      }
+    }
+  }
+}

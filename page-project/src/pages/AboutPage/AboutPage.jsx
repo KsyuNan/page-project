@@ -10,7 +10,7 @@ export const AboutPage = () => {
     return (
         <section >
             <div>
-              <Title />
+              <Title name={'About Author'} text={'Here you can discover how Pages reach this boundary and having a grown on the principles of writing and the reading.'} />
               <AboutJhon />
               <MyStory />
               <AuthorBook />
