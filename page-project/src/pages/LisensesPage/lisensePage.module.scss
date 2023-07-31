@@ -1,0 +1,68 @@
+@use "../../styles/variables";
+
+.Lisense {
+  &Container {
+    &Content {
+      text-align: left;
+
+      span {
+        color: variables.$primary-color;
+        font-weight: 400;
+
+        a {
+          font-weight: 500;
+          &:hover {
+            color: variables.$secondary-color;
+            transition: 0.3s;
+          }
+        }
+      }
+
+      p {
+        color: variables.$paragraph-color;
+        font-weight: 400;
+      }
+
+      &Pexels {
+        padding: 3rem 0;
+
+        a {
+          font-weight: 500;
+          font-family: Inter, sans-serif;
+          font-size: 1.5rem;
+          color: variables.$primary-color;
+          font-weight: 400;
+        }
+      }
+
+      &Unsplash {
+        a {
+          font-weight: 500;
+          font-family: Inter, sans-serif;
+          font-size: 1.5rem;
+          color: variables.$primary-color;
+          font-weight: 400;
+        }
+      }
+
+      &Fonts {
+        padding: 3rem 0;
+        p {
+          font-family: "Inter", sans-serif;
+          color: variables.$paragraph-color;
+          span {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: variables.$primary-color;
+            a {
+              &:hover {
+                color: variables.$secondary-color;
+                transition: 0.3s;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
