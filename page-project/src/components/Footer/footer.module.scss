@@ -10,17 +10,50 @@
 
   &Container {
     &Content {
-      justify-content: space-between !important;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
       h6 {
         font-size: 24px;
         margin-bottom: 1rem;
       }
 
       &Item {
-
+        h6 {
+          color: variables.$main-font;
+          font-size: 2rem;
+          font-weight: 500;
+        }
         li {
+          font-size: 1.5rem;
+          color: variables.$font-color;
+          padding-bottom: 1.5rem;
+        }
 
-          
+        &Info {
+          display: flex;
+          justify-content: space-between;
+
+          p {
+            font-size: 1.5rem;
+            margin-right: 3rem;
+            color: variables.$font-color;
+
+            &:nth-child(1) {
+              padding-bottom: 3rem;
+              font-size: 1.7rem;
+              color: variables.$main-font;
+            }
+          }
+        }
+      }
+    }
+    &Author {
+      p {
+        color: variables.$font-color;
+
+        a {
+          color: #fff;
         }
       }
     }

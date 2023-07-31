@@ -1,0 +1,27 @@
+@use "../../styles/variables";
+
+.Changelog {
+  &Container {
+    &Template {
+      margin: 3rem 0;
+      padding: 4rem;
+      width: 50%;
+      background-color: variables.$page-background;
+      box-shadow: 0 0 14px 0 rgba(27, 55, 100, 0.15);
+
+      &Sub {
+        h4 {
+          width: 8rem;
+          height: 8rem;
+          border-radius: 50%;
+          padding: 3rem 0;
+          background-color: variables.$secondary-color;
+        }
+      }
+      p {
+        color: variables.$primary-color;
+        padding: 2rem 0;
+      }
+    }
+  }
+}
