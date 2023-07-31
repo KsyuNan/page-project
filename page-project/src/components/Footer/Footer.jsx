@@ -1,6 +1,7 @@
 import styles from './footer.module.scss';
 import logo from '../../assets/logo.png';
 import { Social } from './components/Social/Social';
+import { Link } from 'react-router-dom';
 
 
 export const Footer = () => {
@@ -15,21 +16,21 @@ export const Footer = () => {
                    <div className={`${styles.FooterContainerContentItem}`}>
                       <h6 className={`cardo`}>Explore</h6>
                       <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Articles</a></li>
-                        <li><a href="">Our Store</a></li>
-                        <li><a href="">Contact Us</a></li>
+                        <li><Link to='/home' href="">Home</Link></li>
+                        <li><Link to='/about'  href="">About</Link></li>
+                        <li><Link to='/articles'  href="">Articles</Link></li>
+                        <li><Link to='/our-store'  href="">Our Store</Link></li>
+                        <li><Link to='/contact-us' href="">Contact Us</Link></li>
                       </ul>
                    </div>
                    <div className={`${styles.FooterContainerContentItem}`}>
                      <h6 className={`cardo`}>Utility Pages</h6>
                      <ul>
-                        <li><a href="">Style Guid</a></li>
-                        <li><a href="">404 Not Found</a></li>
-                        <li><a href="">Password Protected</a></li>
-                        <li><a href="">Lisenses</a></li>
-                        <li><a href="">Changelog</a></li>
+                        <li><Link to='/style-guide' href="">Style Guid</Link></li>
+                        <li><Link to='/404' href="">404 Not Found</Link></li>
+                        <li><Link to='/password-protected' href="">Password Protected</Link></li>
+                        <li><Link to='/liseness' href="">Lisenses</Link></li>
+                        <li><Link to='/changelog' href="">Changelog</Link></li>
                      </ul>
                    </div>
                    <div className={`${styles.FooterContainerContentItem}`}>

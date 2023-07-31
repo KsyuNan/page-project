@@ -33,9 +33,9 @@ export const Form = () => {
               
             <div className={`${styles.formAgreement}`}>
               <input type="checkbox" id="keep" name="keep" value="keep" className={`inter checkbox`}/>
-              <label for="vehicle3"> Keep me up to date with news and offers from time to time by email </label>
+              <label for="checkbox"> Keep me up to date with news and offers from time to time by email </label>
             </div>  
-              <button className={`submit-btn`}>Send A Message</button>
+              <button type='submit' className={`submit-btn`}>Send A Message</button>
             </div>
         </form>
     )

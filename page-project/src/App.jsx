@@ -5,6 +5,13 @@ import { Home } from './components/Home/Home'
 import Nav from './components/Nav/Nav'
 import { AboutPage } from './pages/AboutPage/AboutPage';
 import { ContactPage } from './pages/ContactPage/ContactPage';
+import { ArticlesPage } from './pages/ArticlesPage/ArticlesPage';
+import { StorePage } from './pages/StorePage/StorePage';
+import { StylePage } from './pages/StylePage/StylePage';
+import { PageNotFound } from './pages/PageNotFound/PageNotFound';
+import { PasswordProtectedPage } from './pages/PasswordProtectedPage/PasswordPage';
+import { LisensePage } from './pages/LisensesPage/LisensePage';
+import { ChangelogPage } from './pages/ChangelogPages/ChangelogPage';
 
 
 function App() {
@@ -16,8 +23,14 @@ function App() {
         <Route path='/home' element={<Home />}/>
         <Route path='/about' element={<AboutPage/>}/>
         <Route path='/contact-us' element={<ContactPage/>}/>
-      </Routes>
-      
+        <Route path='/articles' element={<ArticlesPage/>}/>
+        <Route path='/our-store' element={<StorePage/>}/>
+        <Route path='/style-guide' element={ <StylePage/>}/>
+        <Route path='/page-not-found' element={<PageNotFound />}/>
+        <Route path='/password-protected' element={<PasswordProtectedPage/>}/>
+        <Route path='/liseness' element={<LisensePage/>}/>
+        <Route path='/changelog' element={<ChangelogPage />}/>
+      </Routes>    
     </Router>
   )
 }
