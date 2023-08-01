@@ -4,7 +4,7 @@ export const Cards = (props) => {
     return (
    //   <div className={`${styles.Cards} d-flex`}>
           <div className={`${styles.Card}`}>
-              <img src={props.image} alt="" />
+              <img className={`responsive`} src={props.image} alt="" />
             <div className={`${styles.CardDesc}`}>
               <h4 className={`cardo`}>{props.title}</h4>
               <p className={`inter`}>{props.text}</p>

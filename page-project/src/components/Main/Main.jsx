@@ -14,22 +14,22 @@ export const Main = () => {
             </p>
             <div className={`${styles.mainContainerContentBtn}`}>
                 <button className={`btn-main`}>Order Today</button>
-                <button className={`btn-main`}>Read free Demo</button>
+                <a className={`btn-read cardo`}>Read free Demo</a>
             </div>
 
             <div className={` ${styles.mainContainerContentList} flexCenter`}>
                 <div className={` ${styles.mainContainerContentListItem} flexColStart`}>
-                   <span className={`yellow-circle`} />
+                   <span className={`main-circle`} />
                    <h6 className={`cardo`}>Pages</h6>
                    <span className={`inter desc`}>250 pages</span>
                 </div>
                 <div className={` ${styles.mainContainerContentListItem} flexColStart`}>
-                   <span className={`yellow-circle`} />
+                   <span className={`main-circle`} />
                    <h6 className={`cardo`}>Length</h6>
                    <span className={`inter desc`}>10 Hours</span>
                 </div>
                 <div className={` ${styles.mainContainerContentListItem} flexColStart`}>
-                   <span className={`yellow-circle`} />
+                   <span className={`main-circle`} />
                    <h6 className={`cardo`}>Rating</h6>
                    <span className={`inter desc`}>4.5/5 (305 ratings)</span>
                 </div>
@@ -38,7 +38,7 @@ export const Main = () => {
            </div>
 
            <div className={`${styles.mainContainerImage}`}>
-             <img src={main} alt="" />
+             <img className={`responsive`} src={main} alt="" />
 
            </div>
         </div>

@@ -1,4 +1,5 @@
 @use "../../../../styles/variables";
+@import "../../../../styles/mixins";
 
 .Card {
   background-color: #fff;
@@ -23,9 +24,8 @@
     }
 
     p {
-      color: variables.$paragraph-color;
+      @include p-grey;
       padding: 0.5rem 0;
-      line-height: 30.4px;
     }
 
     &Data {

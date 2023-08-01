@@ -10,7 +10,7 @@ export const Footer = () => {
            <div className={`${styles.FooterContainer} paddings container`}>
                <div className={`${styles.FooterContainerContent}`}>
                    <div className={`${styles.FooterContainerContentItem}`}>
-                      <img src={logo} alt="" />
+                      <img className={`responsive`} src={logo} alt="" />
                       <Social/>
                    </div>
                    <div className={`${styles.FooterContainerContentItem}`}>

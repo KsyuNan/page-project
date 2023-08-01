@@ -1,13 +1,13 @@
 @use "../../../../styles/variables";
+@import "../../../../styles/mixins";
 
 .card {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   &Item {
-    padding: 2.5rem;
-    //margin: 2rem 0;
-    background-color: #f4f8ff;
+    padding: 2rem;
+    background-color: variables.$background-color;
     text-align: start;
 
     span {
@@ -18,9 +18,8 @@
     }
 
     h4 {
-      margin-top: 2.2rem;
-      line-height: 1.4;
-      letter-spacing: 1.1px;
+      @include h4-primary;
+      margin-top: 2rem;
     }
   }
 }

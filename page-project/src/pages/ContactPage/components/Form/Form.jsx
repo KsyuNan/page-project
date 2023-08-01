@@ -18,22 +18,22 @@ export const Form = () => {
 
 
     return (
-        <form className={`${styles.form}`}>
+        <form method='submit' onSubmit={handleSubmit} className={`${styles.form}`}>
            <div className={`${styles.formName}`}>
             {/*<div className={`inputIcon`}><BsPerson/></div>*/}
-             <input type="text" name="name" placeholder={ 'Name'} className={`inter`}/>
+             <input type='text' name='name' onChange={handleChange} value={formData.name} id='' placeholder={ 'Name'} className={`inter`}/>
              {/*<div className={`inputIcon`}><BsEnvelope/></div>*/}
-             <input type="email" name="email" placeholder={'Email'} className={`inter`}/>
+             <input type='email' name='email' onChange={handleChange} value={formData.email} placeholder={'Email'} className={`inter`}/>
            </div> 
             <div className={`${styles.formData}`}>
             {/* <BsTelephone />*/}
-              <input type="tel" name="tel" placeholder={'ddd'} className={`inter`}/>
-              <textarea placeholder='ddd' name="message" maxLength='5000' className={`inter`}></textarea>
+              <input type='tel' name='tel' onChange={handleChange} value={formData.tel} placeholder={'ddd'} className={`inter`}/>
+              <textarea placeholder='ddd' onChange={handleChange} name="message" value={formData.message} maxLength='5000' className={`inter`}></textarea>
               {/*<BsPencilSquare/> */}
               
             <div className={`${styles.formAgreement}`}>
-              <input type="checkbox" id="keep" name="keep" value="keep" className={`inter checkbox`}/>
-              <label for="checkbox"> Keep me up to date with news and offers from time to time by email </label>
+              <input type='checkbox' onChange={handleChange} id='keep' name='keep' value='keep' className={`inter checkbox`}/>
+              <label for='checkbox'> Keep me up to date with news and offers from time to time by email </label>
             </div>  
               <button type='submit' className={`submit-btn`}>Send A Message</button>
             </div>

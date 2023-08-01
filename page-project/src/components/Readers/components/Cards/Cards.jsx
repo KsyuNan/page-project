@@ -6,7 +6,7 @@ export const Cards = (props) => {
       
       <div className={`${styles.Card}`}>
          <div className={`${styles.CardTitle}`}>
-            <img src={props.image} alt="ava1" />
+            <img className={`responsive`} src={props.image} alt="ava1" />
               <div className={`${styles.CardTitleName} cardo`}>
                  <h5 >{props.name}</h5>
                  <Rating />

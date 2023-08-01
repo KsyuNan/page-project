@@ -5,7 +5,7 @@ export const Contacts = () => {
     return (
         <div className={`${styles.contacts}`}>
             <div className={`${styles.contactsContent}`}>
-             <img src={qr} alt="" />
+             <img className={`responsive`} src={qr} alt="" />
              <span className={`img-border`}></span>
              <div className={`${styles.contactsContentTitle}`}>
               <span className={`cardo`}>John Abraham , Ph.d</span>

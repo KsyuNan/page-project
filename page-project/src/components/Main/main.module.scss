@@ -1,19 +1,17 @@
 @use "../../styles/variables";
+@import "../../styles/mixins";
 
 .main {
   background-color: variables.$primary-color;
-  height: 90vh;
 
   &Container {
+    padding: 1.5rem;
+    justify-content: space-between !important;
     &Content {
       color: variables.$main-font;
-      padding-bottom: 1.5rem;
 
       h1 {
-        font-size: 4rem;
-        text-align: left;
-        line-height: 78px;
-        letter-spacing: 1.3px;
+        @include h1;
       }
 
       h6 {
@@ -23,19 +21,25 @@
       }
 
       p {
-        color: variables.$font-color;
+        @include p-light-m;
         text-align: left;
-        line-height: 28.5px;
       }
 
       &Btn {
         padding: 1em 0;
+        display: flex;
+        align-items: center;
+        gap: 3rem;
       }
 
       &List {
         &Item {
           padding-left: 2.5rem;
           padding-right: 2rem;
+          h6 {
+            @include h6-white;
+            padding-bottom: 0.7rem;
+          }
         }
       }
     }

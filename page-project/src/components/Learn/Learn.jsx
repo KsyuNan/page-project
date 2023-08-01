@@ -2,13 +2,12 @@ import styles from './learn.module.scss';
 import reader from '../../assets/reader.png';
 import { Card } from './components/Card/Card';
 import dataLearn from './data';
+import { MainTitle } from '../MainTitle/MainTitle';
 
 export const Learn = () => {
     return (
      <section className={`${styles.learn} p3`}>
-        <div className={`title flexCenter cardo`}>
-            <h2>What Will You Learn?</h2>
-        </div>
+        <MainTitle  title={'What Will You Learn?'} />
       <div className={`${styles.learnContainer} paddings container flexCenter`}>   
         <div className={`${styles.learnContainerCards}`}>
         {dataLearn.map(dataLearn => (

@@ -1,15 +1,12 @@
 import styles from './pages.module.scss'
 import { Cards } from './components/Cards/Cards'
 import dataPages from './data'
+import { MainTitle } from '../MainTitle/MainTitle'
 
 export const Pages = () => {
     return (
-     <section className={`${styles.pages} p3`}>
-    
-        <div className={` ${styles.pagesContainerTitle} cardo title container`}>
-            <h2>Enhance knowledge & Vision</h2>
-            <span></span>
-        </div>
+     <section className={`${styles.pages} p3`}> 
+      <MainTitle title='Enhance Knowledge & Vision' />
         <div className={`${styles.pagesContainer} paddings container `}>
            <div className={`${styles.pagesContainerCards} cardo`}>
           {dataPages.map(dataPages => (

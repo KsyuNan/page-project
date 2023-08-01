@@ -13,23 +13,63 @@
   }
 }
 
+@mixin h1 {
+  font-size: 4rem;
+  line-height: 1.2;
+  font-weight: 700;
+  font-family: "Cardo", sans-serif;
+  color: variables.$main-font;
+  text-align: left;
+}
+
+@mixin h2-main {
+  font-size: 2.3rem;
+  line-height: 50.4px;
+  font-size: 42px;
+  font-family: "Cardo", sans-serif;
+  color: variables.$primary-color;
+}
+
+@mixin h4-primary {
+  font-family: "Cardo", sans-serif;
+  color: variables.$primary-color;
+  font-size: 32px;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+@mixin h5-white {
+  font-size: 24px;
+  font-weight: 700;
+  color: variables.$main-font;
+}
+
+@mixin h6-white {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+  line-height: 28.8px;
+  color: variables.$main-font;
+}
+
 @mixin p-light-m {
-  font-size: 1.2rem;
-  color: variables.$font-color;
+  font-size: 1.5rem;
   line-height: 1.8rem;
+  color: variables.$font-color;
+  font-family: "Inter", sans-serif;
 }
 
 @mixin p-light-s {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: variables.$font-color;
   line-height: 1.8rem;
   font-family: "Inter", sans-serif;
 }
 
 @mixin p-grey {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
-  line-height: 1.8rem;
+  line-height: 2.2rem;
   font-family: "Inter", sans-serif;
   color: variables.$paragraph-color;
 }

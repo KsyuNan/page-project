@@ -14,18 +14,8 @@ a {
   text-decoration: none;
 }
 
-p {
-  font-size: 22px;
-  line-height: 1.5;
-  font-family: "Inter, sans-serif";
-}
-
-h1 {
-  font-size: 65px;
-  line-height: 1.2;
-  font-weight: 700;
-  font-family: "Cardo, sans-serif";
-  color: variables.$primary-color;
+section {
+  padding: 3rem 0;
 }
 
 h2 {
@@ -155,6 +145,22 @@ input::placeholder {
   }
 }
 
+.btn-read {
+  position: relative;
+  font-size: 1.2rem;
+  //border-bottom: 2px solid variables.$main-font;
+  &:before {
+    content: "";
+    position: absolute;
+    border: 1px solid variables.$main-font;
+    width: 8.2rem;
+    top: 1.5rem;
+  }
+  &:hover {
+    color: variables.$secondary-color;
+  }
+}
+
 .btn-get {
   border: 2px solid variables.$secondary-color;
   padding: 1rem 3.2rem;
@@ -240,6 +246,7 @@ input::placeholder {
   padding-left: 2.5rem;
   line-height: 36px;
   letter-spacing: 1.2px;
+  font-style: italic;
 }
 
 .sub::before {
@@ -266,6 +273,21 @@ input::placeholder {
   background: #ffca42;
   left: -0.005em;
   top: 0.1rem;
+}
+
+.main-circle {
+  position: relative;
+
+  &:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: variables.$secondary-color;
+    right: 1.3rem;
+    top: 0.1rem;
+  }
 }
 
 .checked {

@@ -1,14 +1,12 @@
 import styles from './trusted.module.scss'
 import { Card } from './components/Card/Card'
 import dataTrusted from './data'
+import { MainTitle } from '../MainTitle/MainTitle'
 
 export const Trusted = () => {
     return (
         <section className={`${styles.trusted} p3`}>
-            <div className={`${styles.trustedContainerTitle} title cardo flexCenter container`}>
-                 <h2>Trusted By The Best</h2>
-                 <div className={`${styles.trustedContainerTitle} titleLine`}></div>
-               </div>
+            <MainTitle title={'Trusted By The Best'}/>
             <div className={`${styles.trustedContainer} paddings innerWidth container` }>
                <div className={`${styles.trustedContainerContent} flexCenter`} >               
                     {dataTrusted.map(dataTrusted => (

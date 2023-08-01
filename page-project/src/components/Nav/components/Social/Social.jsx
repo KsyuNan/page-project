@@ -5,9 +5,9 @@ import { TiSocialFacebook, TiSocialTwitter, TiSocialLinkedin } from 'react-icons
 export const Social = () => {
     return (
         <div className={` ${styles.social} flexStart`}>
-            <Link><TiSocialFacebook size={20}/></Link>
-            <Link><TiSocialTwitter size={20}/></Link>
-            <Link><TiSocialLinkedin size={20}/></Link>
+            <a href='https://www.facebook.com/' target='_blank'><TiSocialFacebook size={20}/></a>
+            <a href='https://twitter.com/' target='_blank' ><TiSocialTwitter size={20}/></a>
+            <a href='https://www.linkedin.com/' target='_blank'><TiSocialLinkedin size={20}/></a>
         </div>
     )
 }

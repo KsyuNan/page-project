@@ -4,7 +4,7 @@ export const AuthorCard = (props) => {
     return (
     <div className={` ${styles.author}  flexCenter paddings`}>
             <div className={`${styles.authorCard}`}>
-                <img src={props.image} alt='book-img' className={`${styles.authorCardImg}`}/>
+                <img src={props.image} alt='book-img' className={`${styles.authorCardImg} responsive`}/>
                   <div className={`${styles.authorCardDesc} flexColStart`}>
                       <h3>{props.name}</h3>
                       <span>{props.price}</span>

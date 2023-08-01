@@ -1,10 +1,12 @@
 @use "../../styles/variables";
+@import "../../styles/mixins";
 
 .about {
   background-color: #f5f8fc;
 
   &Container {
     justify-content: space-between !important;
+    flex-wrap: wrap;
 
     &Img {
       position: relative;
@@ -28,39 +30,28 @@
     &Content {
       position: relative;
       padding-left: 0;
-      &Title {
-        text-align: left;
-      }
-
-      p {
-        font-family: Inter, sans-serif;
-        text-align: left;
-        color: #969aa0;
-        padding: 2rem 0;
-        //padding-top: 28px;
-        line-height: 1.8;
-        text-align: left;
-      }
 
       ::before {
         content: "";
         width: 30px;
-        height: 1rem;
+        height: 0.5rem;
         color: variables.$secondary-color;
         top: 1rem;
         position: absolute;
       }
 
       &Counter {
-        justify-content: space-between;
+        justify-content: left;
         &Stat {
           text-align: start;
+          padding: 0 2rem;
 
           span {
             color: variables.$primary-color;
-            font-size: 5rem;
+            font-size: 2rem;
           }
           p {
+            @include p-grey;
             padding-top: 1rem;
           }
         }

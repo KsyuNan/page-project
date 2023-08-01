@@ -14,7 +14,7 @@ export const GetBook = () => {
                      <button className={`btn-get`}>Order Today</button>
                 </div>
                 <div className={`${styles.getbookContainerImg}`}>
-                   <img src={getBook} alt="" />
+                   <img className={`responsive`} src={getBook} alt="" />
                 </div>
 
             </div>

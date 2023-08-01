@@ -2,20 +2,21 @@ import styles from './about.module.scss'
 import about from '../../assets/about.png'
 import CountUp from 'react-countup'
 import { Contacts } from './components/Contacts/contacts'
+import { LeftTitle} from '../../components/LeftTitle/LeftTitle';
  
 export const About = () => {
     return (
         <section className={`${styles.about} p3`}>
-            <div className={`${styles.aboutContainer} paddings container innerWidth flexCenter`}>
+            <div className={`${styles.aboutContainer} paddings container flexCenter`}>
                <div className={`${styles.aboutContainerImg}`}>
-                <img src={about} alt="" />
+                <img className={`responsive`} src={about} alt="" />
                </div>
                <div className={`${styles.aboutContainerContent}`}>
-                    <div className={` ${styles.aboutContainerContentTitle} cardo title`}>
-                        <h2>About the Author</h2>
-                        <div className={`${styles.aboutContainerContentTitleLine} titleLineLeft`}></div>
-                    </div>
-                    <p>We believe that bookstores are essential to a healthy culture. <br/> They’re where authors can connect with readers, where we <br/> discover new writers, where children get hooked on the thrill <br/> of reading that can last a lifetime.</p>
+                     <LeftTitle  title='About The Author' 
+                              text='We believe that bookstores are essential to a healthy culture. 
+                                    They’re where authors can connect with readers, where we
+                                    discover new writers, where children get hooked on the thrill
+                                    of reading that can last a lifetime.'  />   
                   <div className={`${styles.aboutContainerContentCounter} d-flex`}>
                    <div className={`${styles.aboutContainerContentCounterStat}`}>
                       <span>
