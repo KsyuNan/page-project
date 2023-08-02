@@ -13,17 +13,17 @@ export const ArticlesPage = () => {
             <div className={`${styles.ArticlespageContainer} paddings container flexCenter`}>
                 <div className={`${styles.ArticlespageContainerCards}`}>
                     {
-            dataArticles.map(dataArticles => (
-             <Cards 
-               key={dataArticles.id}
-               image={dataArticles.image}
-               title={dataArticles.title}
-               text={dataArticles.text}
-               action={dataArticles.action}
-               date={dataArticles.date}
-             />
-            ))
-          }      
+                      dataArticles.map(dataArticles => (
+                    <Cards 
+                      key={dataArticles.id}
+                      image={dataArticles.image}
+                      title={dataArticles.title}
+                      text={dataArticles.text}
+                      action={dataArticles.action}
+                      date={dataArticles.date}
+                    />
+                   ))
+                   }      
 
                 </div>
             </div>

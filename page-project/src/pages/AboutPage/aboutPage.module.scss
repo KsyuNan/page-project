@@ -1,0 +1,7 @@
+@use "../../styles/variables";
+
+.Aboutpage {
+  &Author {
+    background-color: variables.$background-color;
+  }
+}

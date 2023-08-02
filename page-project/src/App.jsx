@@ -12,6 +12,7 @@ import { PageNotFound } from './pages/PageNotFound/PageNotFound';
 import { PasswordProtectedPage } from './pages/PasswordProtectedPage/PasswordPage';
 import { LisensePage } from './pages/LisensesPage/LisensePage';
 import { ChangelogPage } from './pages/ChangelogPages/ChangelogPage';
+import { Footer } from './components/Footer/Footer';
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         <Route path='/liseness' element={<LisensePage/>}/>
         <Route path='/changelog' element={<ChangelogPage />}/>
       </Routes>    
+      <Footer />
     </Router>
   )
 }

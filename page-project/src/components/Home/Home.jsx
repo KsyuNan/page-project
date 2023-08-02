@@ -18,8 +18,6 @@ import { Footer } from '../Footer/Footer'
 export const Home = () => {
     return (
         <>
-         {/*<Nav />*/}
-         {/*<Header /> */}
          <Main />     
          <AuthorBook />
          <About />
@@ -30,7 +28,6 @@ export const Home = () => {
          <Readers />
          <Articles />
         <Subscribe />
-        <Footer />
         </>
     )
 }
