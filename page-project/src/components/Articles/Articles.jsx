@@ -11,7 +11,7 @@ export const Articles = () => {
         <div className={`${styles.ArticlesContainer} paddings container d-flex`}>
           <div className={`${styles.ArticlesContainerCards}`}>
           {
-            dataArticles.map(dataArticles => (
+            dataArticles.slice(0, 3).map(dataArticles => (
              <Cards 
                key={dataArticles.id}
                image={dataArticles.image}

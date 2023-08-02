@@ -1,16 +1,18 @@
-import styles from './mystory.module.scss'
+import styles from './mystory.module.scss';
+
+import { LeftTitle} from '../../../../components/LeftTitle/LeftTitle'
 
 export const MyStory = () => {
     return (
         <div className={`${styles.story}`}>
           <div className={`${styles.storyContainer} paddings container`}>
             <div className={`${styles.storyContainerDesc}`}>
-                <div className={`${styles.storyContainerDescTitle}`}>
-                  <h2>My Story</h2>
-                  <div className={`titleLine`}></div>
-                  <p className={`inter`}>We believe that bookstores are essential to a healthy culture. 
+               <div className={`${styles.storyContainerDescTitle}`}>
+                  <LeftTitle 
+                    title='My Story' 
+                    text='We believe that bookstores are essential to a healthy culture. 
                     They’re where authors can connect with readers, where we discover 
-                    new writers, where children get hooked on the thrill of reading.</p>
+                    new writers, where children get hooked on the thrill of reading.'/>
                 </div>
                  <div className={`${styles.storyContainerDescAward}`}>
                      <div className={`${styles.storyContainerDescAwardItem}`}>

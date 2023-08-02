@@ -4,7 +4,7 @@ import { Form } from '../ContactPage/components/Form/Form'
 
 export const StylePage = () => {
     return (
-        <section className={`${styles.Styles} `}>
+        <div className={`${styles.Styles} `}>
             <Title name={'Style Guide'} text={'All the default tag styles are listed here to know how its exactly shown in the template.'}/>
             <div className={`${styles.StylesContainer} paddings container flexColStart`}>
                 <div className={`${styles.StylesContainerColor} paddings`}>
@@ -79,6 +79,6 @@ export const StylePage = () => {
                    <Form />
                 </div>
             </div>
-        </section>
+        </div>
     )
 }

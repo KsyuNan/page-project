@@ -8,15 +8,13 @@ import { Subscribe } from '../../components/Subscribe/Subscribe'
 
 export const AboutPage = () => {
     return (
-        <section >
-            <div>
+            <>
               <Title name={'About Author'} text={'Here you can discover how Pages reach this boundary and having a grown on the principles of writing and the reading.'} />
               <AboutJhon />
               <MyStory />
               <AuthorBook />
               <Trusted />
               <Subscribe />
-           </div>
-        </section>
+           </>
     )
 }
