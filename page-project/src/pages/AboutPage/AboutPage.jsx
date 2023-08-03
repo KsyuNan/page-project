@@ -8,7 +8,7 @@ import { Subscribe } from '../../components/Subscribe/Subscribe'
 
 export const AboutPage = () => {
     return (
-            <div className={`${styles.Aboutpage}`}>
+            <div className={`${styles.Aboutpage} `}>
               <Title name={'About Author'} text={'Here you can discover how Pages reach this boundary and having a grown on the principles of writing and the reading.'} />
               <AboutJhon />
               <MyStory />

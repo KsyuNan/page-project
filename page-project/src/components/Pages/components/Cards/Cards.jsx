@@ -4,8 +4,8 @@ export const Cards = (props) => {
     return (
         <div className={`${styles.Card}`}>
            <div className={`${styles.CardTitle}`}>
-              <h4 className={`cardo`}>{props.title}</h4>
-              <p className={`inter`}>{props.text}</p>
+              <h4>{props.title}</h4>
+              <p>{props.text}</p>
               <div className={`${styles.CardTitleSub}`}>
                 <div className={`${styles.CardTitleSubData} `}>
                   <div className={`yellow-circle `}></div>

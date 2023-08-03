@@ -7,7 +7,7 @@ import { LeftTitle} from '../../components/LeftTitle/LeftTitle';
 export const About = () => {
     return (
         <section className={`${styles.about} p3`}>
-            <div className={`${styles.aboutContainer} paddings container flexCenter`}>
+            <div className={`${styles.aboutContainer} paddings container`}>
                <div className={`${styles.aboutContainerImg}`}>
                 <img className={`responsive`} src={about} alt="" />
                </div>

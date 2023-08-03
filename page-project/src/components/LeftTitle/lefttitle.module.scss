@@ -1,20 +1,19 @@
 @use "../../styles/variables";
-@import "../../styles/mixins";
+@import "../../styles/index";
 
 .Lefttitle {
   text-align: left;
   h2 {
-    @include h2-main;
+    @include h3(variables.$primary-color, 3rem, variables.$font-cardo);
   }
 
   div {
-    padding-top: 1rem;
+    margin: 2rem 0;
     border-bottom: 3px solid variables.$secondary-color;
-    width: 7%;
+    width: 10%;
   }
 
   p {
-    @include p-grey;
-    padding-top: 1rem;
+    @include paragraph(variables.$paragraph-color, 1.4rem);
   }
 }

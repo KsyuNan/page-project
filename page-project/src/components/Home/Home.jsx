@@ -1,6 +1,5 @@
-import '../../styles/reset.scss'
-//import  { Header } from './components/Header/Header'
-import Nav from '../Nav/Nav'
+import '../../styles/index.scss'
+
 import { Main } from '../Main/Main'
 import { AuthorBook } from '../AuthorBook/AuthorBook'
 import { About } from '../About/About'
@@ -11,9 +10,6 @@ import { Pages } from '../Pages/Pages'
 import { Readers } from '../Readers/Readers'
 import { Articles } from '../Articles/Articles'
 import { Subscribe } from '../Subscribe/Subscribe'
-import { Footer } from '../Footer/Footer'
-
-
 
 export const Home = () => {
     return (

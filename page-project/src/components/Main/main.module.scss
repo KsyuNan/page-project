@@ -3,33 +3,38 @@
 
 .main {
   background-color: variables.$primary-color;
+  padding: 3rem 0;
 
   &Container {
-    padding: 1.5rem;
-    justify-content: space-between !important;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center space-between;
+    align-self: center;
+
     &Content {
       color: variables.$main-font;
 
       h1 {
-        @include h1;
+        @extend %extend-h1;
+        text-align: left;
+        margin: 2rem 0;
       }
 
       h6 {
-        font-size: 1.5rem;
-        line-height: 28.8px;
-        letter-spacing: 0.48px;
+        @include h6(variables.$main-font, 1.5rem, variables.$font-inter);
       }
 
       p {
-        @include p-light-m;
+        @include paragraph(variables.$font-color, 1.4rem);
         text-align: left;
+        margin: 2rem 0;
       }
 
       &Btn {
         padding: 1em 0;
         display: flex;
         align-items: center;
-        gap: 3rem;
+        gap: 2rem;
       }
 
       &List {
@@ -37,8 +42,12 @@
           padding-left: 2.5rem;
           padding-right: 2rem;
           h6 {
-            @include h6-white;
+            @include h6(variables.$main-font, 1.5rem, variables.$font-cardo);
             padding-bottom: 0.7rem;
+          }
+
+          span {
+            font-size: 1.2rem;
           }
         }
       }

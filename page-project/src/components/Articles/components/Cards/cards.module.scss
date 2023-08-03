@@ -15,17 +15,13 @@
     text-align: start;
     padding: 2rem;
 
-    h4 {
-      font-size: 30px;
-      color: variables.$primary-color;
-      line-height: 33.6px;
-      line-height: 1.4;
-      font-weight: 700;
+    p {
+      @include paragraph(variables.$paragraph-color, 1.4rem);
+      padding: 0.5rem 0;
     }
 
-    p {
-      @include p-grey;
-      padding: 0.5rem 0;
+    h4 {
+      @include h4(variables.$primary-color, 1.9rem, variables.$font-cardo);
     }
 
     &Data {

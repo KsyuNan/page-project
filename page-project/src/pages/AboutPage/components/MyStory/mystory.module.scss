@@ -1,5 +1,5 @@
 @use "../../../../styles/variables";
-@import "../../../../styles/_mixins.scss";
+@import "../../../../styles/index.scss";
 
 .story {
   padding: 4rem 0;
@@ -10,7 +10,7 @@
     align-items: center;
 
     p {
-      @include p-grey;
+      @include paragraph(variables.$paragraph-color, 1.4rem);
     }
 
     &Desc {
@@ -25,8 +25,11 @@
 
           &Num {
             h5 {
-              font-size: 2.5rem;
-              color: variables.$primary-color;
+              @include h5(
+                variables.$primary-color,
+                2.5rem,
+                variables.$font-cardo
+              );
               background-color: variables.$secondary-color;
               padding: 1rem 1.3rem;
             }
@@ -39,12 +42,12 @@
             padding-left: 2rem;
 
             h4 {
-              @include h4-primary;
+              @include h4(
+                variables.$primary-color,
+                1.5rem,
+                variables.$font-cardo
+              );
               padding-bottom: 0;
-            }
-
-            div {
-              // margin: 3rem 0;
             }
           }
         }

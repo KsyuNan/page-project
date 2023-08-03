@@ -1,5 +1,5 @@
 import './App.scss'
-import './styles/reset.scss'
+import './styles/index.scss'
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Home } from './components/Home/Home'
 import Nav from './components/Nav/Nav'

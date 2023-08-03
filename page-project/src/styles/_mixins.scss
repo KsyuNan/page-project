@@ -1,4 +1,5 @@
 @use "./variables";
+@import "./extends";
 
 @mixin input-border {
   border: 1px solid variables.$input-border;
@@ -13,63 +14,43 @@
   }
 }
 
-@mixin h1 {
-  font-size: 4rem;
-  line-height: 1.2;
-  font-weight: 700;
-  font-family: "Cardo", sans-serif;
-  color: variables.$main-font;
-  text-align: left;
+@mixin paragraph($color, $size) {
+  color: $color;
+  font-size: $size;
+  @extend %extend-paragraph;
 }
 
-@mixin h2-main {
-  font-size: 2.3rem;
-  line-height: 50.4px;
-  font-size: 42px;
-  font-family: "Cardo", sans-serif;
-  color: variables.$primary-color;
+@mixin h2($color, $size, $family) {
+  font-size: $size;
+  color: $color;
+  font-family: $family;
+  @extend %extend-h2;
 }
 
-@mixin h4-primary {
-  font-family: "Cardo", sans-serif;
-  color: variables.$primary-color;
-  font-size: 32px;
-  line-height: 1.4;
-  font-weight: 700;
+@mixin h3($color, $size, $family) {
+  font-size: $size;
+  color: $color;
+  font-family: $family;
+  @extend %extend-h3;
 }
 
-@mixin h5-white {
-  font-size: 24px;
-  font-weight: 700;
-  color: variables.$main-font;
+@mixin h4($color, $size, $family) {
+  font-size: $size;
+  color: $color;
+  font-family: $family;
+  @extend %extend-h4;
 }
 
-@mixin h6-white {
-  font-size: 20px;
-  line-height: 1.2;
-  font-weight: 700;
-  line-height: 28.8px;
-  color: variables.$main-font;
+@mixin h5($color, $size, $family) {
+  font-size: $size;
+  color: $color;
+  font-family: $family;
+  @extend %extend-h5;
 }
 
-@mixin p-light-m {
-  font-size: 1.5rem;
-  line-height: 1.8rem;
-  color: variables.$font-color;
-  font-family: "Inter", sans-serif;
-}
-
-@mixin p-light-s {
-  font-size: 1.2rem;
-  color: variables.$font-color;
-  line-height: 1.8rem;
-  font-family: "Inter", sans-serif;
-}
-
-@mixin p-grey {
-  font-size: 1.2rem;
-  font-weight: 400;
-  line-height: 2.2rem;
-  font-family: "Inter", sans-serif;
-  color: variables.$paragraph-color;
+@mixin h6($color, $size, $family) {
+  font-size: $size;
+  color: $color;
+  font-family: $family;
+  @extend %extend-h6;
 }

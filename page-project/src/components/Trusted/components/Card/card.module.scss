@@ -12,17 +12,15 @@
       max-height: auto;
     }
 
-    h4 {
-      color: variables.$primary-color;
+    p {
+      @include paragraph(variables.$paragraph-color, 1.4rem);
       margin-top: 22px;
-      padding-bottom: 5px;
-      font-size: 24px;
-      font-weight: 700;
     }
 
-    p {
-      @include p-grey;
+    h4 {
+      @include h4(variables.$primary-color, 24px, variables.$font-cardo);
       margin-top: 22px;
+      padding-bottom: 5px;
     }
   }
 }

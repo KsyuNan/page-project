@@ -1,5 +1,5 @@
 @use "../../../../styles/variables";
-@import "../../../../styles/mixins";
+@import "../../../../styles/index";
 
 .Card {
   background-color: variables.$primary-color;
@@ -23,16 +23,16 @@
       padding: 1rem;
 
       h5 {
-        @include h5-white;
+        @include h5(variables.$main-font, 1.5rem, variables.$font-cardo);
       }
     }
   }
-  h6 {
-    @include h6-white;
-    padding-bottom: 1rem;
+  p {
+    @include paragraph(variables.$font-color, 1.4rem);
   }
 
-  p {
-    @include p-light-s;
+  h6 {
+    @include h6(variables.$main-font, 1.4rem, variables.$font-cardo);
+    padding-bottom: 1rem;
   }
 }

@@ -12,8 +12,8 @@ export const Cards = (props) => {
                  <Rating />
               </div>
            </div>
-            <h6 className={`cardo`}>{props.title}</h6>
-            <p className={`inter`}>{props.text}</p>
+            <h6>{props.title}</h6>
+            <p>{props.text}</p>
          </div> 
     )
 }

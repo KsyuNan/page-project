@@ -5,7 +5,7 @@
   text-align: center;
   padding-top: 3rem;
   h2 {
-    @include h2-main;
+    @include h2(variables.$primary-color, 3rem, variables.$font-cardo);
   }
 
   div {

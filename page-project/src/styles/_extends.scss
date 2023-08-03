@@ -1,0 +1,57 @@
+@use "./variables";
+
+%extend-paragraph {
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+%extend-h1 {
+  font-family: "Cardo", sans-serif;
+  color: variables.$main-font;
+  font-size: 4rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+%extend-h2 {
+  font-family: "Cardo", sans-serif;
+  color: variables.$primary-color;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+%extend-h3 {
+  font-family: "Cardo", sans-serif;
+  color: variables.$primary-color;
+  font-size: 2.8rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+%extend-h4 {
+  font-family: "Cardo", sans-serif;
+  color: variables.$primary-color;
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+%extend-h5 {
+  font-family: "Cardo", sans-serif;
+  color: variables.$primary-color;
+  font-size: 1.75rem;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+%extend-h6 {
+  font-family: "Cardo", sans-serif;
+  color: variables.$primary-color;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  font-weight: 700;
+}

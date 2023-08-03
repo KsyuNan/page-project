@@ -1,7 +1,9 @@
 @use "../../../../styles/variables";
+@import "../../../../styles/index.scss";
 
 .Aboutjohn {
   background-color: variables.$page-background;
+  padding-top: 2rem;
   &Container {
     &Img {
       img {
@@ -12,7 +14,7 @@
     &Content {
       display: flex;
       align-items: center;
-      margin: 3rem 0;
+      margin: 1rem 0;
 
       &Bio {
         display: flex;
@@ -29,11 +31,8 @@
           flex-direction: row;
           justify-content: space-between;
           padding: 1.5rem 0;
-          font-size: 2rem;
-          font-family: "Cardo,sans-serif";
           h6 {
-            font-family: "Cardo,sans-serif";
-            color: variables.$primary-color;
+            @include h6(variables.$primary-color, 2rem, variables.$font-cardo);
           }
           div {
             color: variables.$paragraph-color;
@@ -43,25 +42,11 @@
       &Desc {
         text-align: left;
         width: 56%;
-        padding: 3rem 0 0 1rem;
-        h2 {
-          text-transform: capitalize;
-          color: variables.$primary-color;
-          font-weight: 600;
-          font-size: 55px;
-          line-height: 1.2;
-          font-family: "Cardo, sans-serif";
-        }
-
-        div {
-          margin: 1.5rem 0;
-        }
+        padding: 3rem 0 0 2rem;
 
         p {
-          color: variables.$paragraph-color;
+          @include paragraph(variables.$paragraph-color, 1.4rem);
           padding-top: 1.5rem;
-          line-height: 1.8;
-          font-size: 1.5rem;
         }
       }
     }

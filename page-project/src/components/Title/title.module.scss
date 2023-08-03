@@ -1,13 +1,20 @@
 @use "../../styles/variables";
+@import "../../styles/index.scss";
 
 .title {
   background-color: variables.$primary-color;
   padding: 5rem 0;
+
   &Container {
     width: 33%;
+
+    p {
+      @include paragraph(variables.$font-color, 1.4rem);
+      padding: 2rem;
+    }
+
     h2 {
-      color: variables.$main-font;
-      font-size: 4rem;
+      @include h2(variables.$main-font, 4rem, variables.$font-cardo);
     }
 
     div {
@@ -15,14 +22,6 @@
       width: 10%;
       margin: 0 auto;
       padding-top: 2rem;
-    }
-
-    p {
-      padding: 2rem;
-      font-size: 24px;
-      color: variables.$font-color;
-      line-height: 1.7;
-      font-weight: 400;
     }
   }
 }

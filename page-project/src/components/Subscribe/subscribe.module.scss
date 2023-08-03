@@ -1,20 +1,28 @@
 @use "../../styles/variables";
+@import "../../styles/index.scss";
 
 .Subscribe {
+  padding: 6rem 0;
   &Container {
+    background-color: variables.$secondary-color;
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.18);
     &Desc {
-      width: 100%;
-      height: 35vh;
       padding: 3rem 0;
-      background-color: variables.$secondary-color;
-      box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.18);
       margin: 3rem 0;
 
       &Title {
+        color: #fff;
+        text-align: center;
+
+        h2 {
+          @include h2(variables.$primary-color, 3rem, variables.$font-cardo);
+        }
+
+        div {
+          margin: 2rem 0;
+        }
         p {
-          color: variables.$primary-color;
-          line-height: 28.5px;
-          font-size: 19px;
+          @include paragraph(variables.$primary-color, 1.4rem);
         }
       }
 
@@ -24,11 +32,13 @@
         justify-content: center;
         gap: 1rem;
         flex-wrap: nowrap;
-        margin-top: 3rem;
+        margin-top: 2rem;
+
         input {
-          padding: 1rem 8rem;
+          padding: 2rem 15rem;
           border: none;
         }
+
         button {
           font-size: 20px;
         }

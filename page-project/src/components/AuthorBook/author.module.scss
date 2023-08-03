@@ -1,14 +1,6 @@
 @use "../../styles/variables";
 
 .author {
-  &Title {
-    h2 {
-      font-size: 2.3rem;
-      padding-top: 2rem;
-      color: variables.$primary-color;
-    }
-  }
-
   &Container {
     &Cards {
       display: grid;

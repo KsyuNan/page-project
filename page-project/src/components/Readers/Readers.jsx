@@ -7,7 +7,7 @@ import { LeftTitle } from '../LeftTitle/LeftTitle';
 export const Readers = () => {
     return (
      <section className={`${styles.Readers} p3`}>
-        <div className={`${styles.ReadersContainer} paddings container flexCenter`}>
+        <div className={`${styles.ReadersContainer} paddings container`}>
             <div className={`${styles.ReadersContainerDesc}`}>
               <LeftTitle 
                 title='Words From Our Readers' 

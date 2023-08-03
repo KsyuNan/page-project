@@ -18,16 +18,6 @@
       padding: 0 1.5rem;
       text-align: left;
 
-      h3 {
-        font-family: Cardo, sans-serif;
-        font-size: 42px;
-        color: variables.$primary-color;
-        font-weight: 700;
-        line-height: 38.4px;
-        letter-spacing: 0.01em;
-        word-wrap: break-word;
-      }
-
       span {
         color: variables.$secondary-color;
         font-size: 28px;
@@ -36,43 +26,19 @@
       }
 
       p {
-        @include p-grey;
-        word-wrap: break-word;
+        @include paragraph(variables.$paragraph-color, 1.2rem);
         padding: 1rem 0;
       }
 
-      h5 {
-        color: variables.$primary-color;
-        font-size: 24px;
-        font-family: Cardo;
-        font-weight: 700;
-        line-height: 28.8px;
+      h3 {
+        @include h3(variables.$primary-color, 2.5rem, variables.$font-cardo);
         word-wrap: break-word;
+      }
+
+      h5 {
+        @include h5(variables.$primary-color, 1.5rem, variables.$font-cardo);
         padding-left: 2rem;
       }
     }
   }
 }
-
-/*
-    &Desc {
-      padding: 1rem;
-
-      h5 {
-        font-size: 32px;
-        color: variables.$primary-color;
-        line-height: 38.4px;
-      }
-
-      span {
-        color: variables.$secondary-color;
-      }
-
-      p {
-        color: #969aa0;
-        line-height: 28.5px;
-        text-align: start;
-        margin: 1rem 0;
-      }
-    }
-    */

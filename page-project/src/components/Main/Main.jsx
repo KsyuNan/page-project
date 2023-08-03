@@ -5,7 +5,7 @@ import main from '../../assets/main.png'
 export const Main = () => {
     return (
       <section className={` ${styles.main} `}>
-        <div className={` ${styles.mainContainer} container paddings innerWidth flexCenter`}>
+        <div className={` ${styles.mainContainer} container paddings`}>
            <div className={`${styles.mainContainerContent} flexColStart`}>
             <span className={`sub cardo `}>Welcome to Pages!!!</span>
             <h1 className={`cardo`}>Your Books From <br /> The Best Writer</h1>
@@ -38,7 +38,7 @@ export const Main = () => {
            </div>
 
            <div className={`${styles.mainContainerImage}`}>
-             <img className={`responsive`} src={main} alt="" />
+             <img src={main} alt="" />
 
            </div>
         </div>

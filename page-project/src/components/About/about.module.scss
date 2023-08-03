@@ -5,8 +5,10 @@
   background-color: #f5f8fc;
 
   &Container {
-    justify-content: space-between !important;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center stretch;
+    align-self: center;
 
     &Img {
       position: relative;
@@ -29,7 +31,7 @@
 
     &Content {
       position: relative;
-      padding-left: 0;
+      padding-left: 2rem;
 
       ::before {
         content: "";
@@ -51,7 +53,7 @@
             font-size: 2rem;
           }
           p {
-            @include p-grey;
+            @include paragraph(variables.$paragraph-color, 1.4rem);
             padding-top: 1rem;
           }
         }

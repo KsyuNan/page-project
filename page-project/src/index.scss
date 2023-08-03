@@ -143,13 +143,13 @@ input::placeholder {
 
 .btn-read {
   position: relative;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   //border-bottom: 2px solid variables.$main-font;
   &:before {
     content: "";
     position: absolute;
     border: 1px solid variables.$main-font;
-    width: 8.2rem;
+    width: 9.5rem;
     top: 1.5rem;
   }
   &:hover {
@@ -329,6 +329,12 @@ input::placeholder {
   background-color: variables.$secondary-color;
   top: 1rem;
   left: 0;
+}
+
+.titleLineBlue {
+  width: 4rem;
+  height: 0.2rem;
+  background-color: variables.$primary-color;
 }
 
 .imageDecor {
