@@ -1,25 +1,21 @@
 @use "../../styles/variables";
+@import "../../styles/index.scss";
 
 .Pagenotfound {
-  padding: 4rem;
   &Container {
     h2 {
-      font-size: 220px;
-      line-height: 0.9;
-      font-weight: 700;
+      @include h2(variables.$primary-color, 14rem, variables.$font-cardo);
       text-shadow: 7px 6px 1px rgba(255, 202, 66, 0.63);
-      padding: 2rem 0;
+      padding: 1rem 0;
     }
 
     h3 {
-      font-size: 40px;
-      font-weight: 700;
-      text-transform: capitalize;
+      @include h3(variables.$primary-color, 2.5rem, variables.$font-cardo);
     }
 
     p {
+      @include paragraph(variables.$paragraph-color, 1.4rem);
       padding: 2rem 0;
-      color: variables.$paragraph-color;
     }
   }
 }
