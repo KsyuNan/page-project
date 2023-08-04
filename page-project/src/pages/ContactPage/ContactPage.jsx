@@ -11,7 +11,7 @@ export const ContactPage = () => {
             <Title name={'Contact Us'} text={'Whether you have a question about features, pricing or anything else about the books, our team is ready to answer all your questions.'} />
             <KeepInTouch />
             <Faq/>
-            <FormSubmit/>
+          {/*  <FormSubmit/>*/} 
         </section>
     )
 }

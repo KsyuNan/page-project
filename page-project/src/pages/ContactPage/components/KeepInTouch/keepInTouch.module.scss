@@ -1,4 +1,5 @@
 @use "../../../../styles/variables";
+@import "../../../../styles/index.scss";
 
 .Kit {
   &Container {
@@ -11,12 +12,11 @@
       width: 52%;
 
       p {
-        color: variables.$paragraph-color;
-        font-size: 1.4rem;
+        @include paragraph(variables.$paragraph-color, 1.4rem);
       }
 
       &Adress {
-        padding: 2rem 0;
+        padding: 1rem 0;
 
         &Item {
           display: flex;
@@ -24,7 +24,7 @@
           padding: 1rem 0;
 
           h6 {
-            font-size: 2rem;
+            @include h6(variables.$primary-color, 2rem, variables.$font-cardo);
           }
 
           &Logo {
