@@ -1,0 +1,14 @@
+.rating {
+  display: flex;
+  margin: 0.7rem 0;
+}
+.rating span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #ffca42;
+  margin-right: 0.2rem;
+}
+.ratingCircle {
+  background-color: #ffca42;
+}/*# sourceMappingURL=rating.module.css.map */

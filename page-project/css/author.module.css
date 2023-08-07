@@ -1,0 +1,6 @@
+.authorContainerCards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 20px;
+}/*# sourceMappingURL=author.module.css.map */

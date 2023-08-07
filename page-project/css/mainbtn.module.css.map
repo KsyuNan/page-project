@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/components/Button/MainBtn/mainbtn.module.scss","../src/styles/_variables.scss","mainbtn.module.css"],"names":[],"mappings":"AAEA;EACE,cAAA;EACA,sBAAA;EACA,yBCJgB;EDKhB,cCNc;EDOd,gCAAA;EACA,iBAAA;EACA,oBAAA;EACA,gBAAA;AEDF;AFGE;EACE,4BAAA;EACA,6BAAA;EACA,cCZQ;EDaR,gBAAA;AEDJ","file":"mainbtn.module.css"}

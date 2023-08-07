@@ -1,0 +1,19 @@
+.pages {
+  background-color: #f4f8ff;
+}
+.pagesContainerCards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  margin: 1rem;
+}
+.pagesContainerDesc p {
+  font-size: 18px;
+  color: #969aa0;
+  text-align: center;
+}
+.pagesContainerDesc p span {
+  color: #1b3764;
+}/*# sourceMappingURL=pages.module.css.map */

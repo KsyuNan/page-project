@@ -1,0 +1,41 @@
+.contacts {
+  background-color: #1b3764;
+  width: 70%;
+}
+.contactsContent {
+  display: flex;
+  position: relative;
+  padding: 1.5rem;
+  align-items: center;
+}
+.contactsContent img {
+  width: 30%;
+  height: auto;
+  z-index: 1;
+  position: relative;
+}
+.contactsContent img span {
+  border: 4px solid #ffca42;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  z-index: 2;
+  left: 20px;
+  top: 3rem;
+}
+.contactsContentTitle {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.contactsContentTitle span {
+  color: #b4c7e7;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+.contactsContentTitle span:nth-child(1) {
+  color: #ffca42;
+  font-weight: 700;
+  line-height: 1.2;
+}/*# sourceMappingURL=contacts.module.css.map */

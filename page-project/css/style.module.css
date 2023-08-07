@@ -1,0 +1,68 @@
+.StylesContainerColor {
+  align-items: left;
+}
+.StylesContainerColorList {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.StylesContainerColorListItem {
+  text-align: center;
+  margin: 2rem 0;
+}
+.StylesContainerColorListItem h5 {
+  margin: 1rem 0;
+}
+.StylesContainerColorListItemBlue {
+  height: 200px;
+  width: 350px;
+  background-color: #1b3764;
+}
+.StylesContainerColorListItemYellow {
+  height: 200px;
+  width: 350px;
+  background-color: #ffca42;
+}
+.StylesContainerColorListItemLight {
+  height: 200px;
+  width: 350px;
+  background-color: #b4c7e7;
+}
+.StylesContainerParagraph p {
+  color: #969aa0;
+}
+.StylesContainerButtons ul {
+  list-style-type: circle;
+}
+.StylesContainerQuote {
+  position: relative;
+}
+.StylesContainerQuoteItem {
+  padding: 5rem 3rem;
+  background: #1b3764;
+  color: #ffffff;
+  border-radius: 5px;
+  position: relative;
+}
+.StylesContainerQuoteItem:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 4rem;
+  height: 4rem;
+  width: 5rem;
+  -webkit-clip-path: polygon(20% 0, 63% 0, 63% 55%, 20% 100%);
+          clip-path: polygon(20% 0, 63% 0, 63% 55%, 20% 100%);
+  background-color: #ffca42;
+}
+.StylesContainerQuoteItem:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 1rem;
+  height: 4rem;
+  width: 5rem;
+  -webkit-clip-path: polygon(20% 0, 63% 0, 63% 55%, 20% 100%);
+          clip-path: polygon(20% 0, 63% 0, 63% 55%, 20% 100%);
+  background-color: #ffca42;
+}/*# sourceMappingURL=style.module.css.map */

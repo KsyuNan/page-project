@@ -1,0 +1,186 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  --webkit-appearance: none;
+  border-radius: 0;
+}
+
+.SubscribeContainerDescTitle p {
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.SubscribeContainerDescTitle h2 {
+  font-family: "Cardo", sans-serif;
+  color: #1b3764;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.SubscribeContainerDescTitle p {
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.SubscribeContainerDescTitle h2 {
+  font-family: "Cardo", sans-serif;
+  color: #1b3764;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.Subscribe {
+  padding: 6rem 0;
+}
+.SubscribeContainer {
+  background-color: #ffca42;
+  box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.18);
+}
+.SubscribeContainerDesc {
+  padding: 3rem 0;
+  margin: 3rem 0;
+}
+.SubscribeContainerDescTitle {
+  color: #fff;
+  text-align: center;
+}
+.SubscribeContainerDescTitle h2 {
+  font-size: 3rem;
+  color: #1b3764;
+  font-family: "Cardo", sans-serif;
+}
+.SubscribeContainerDescTitle div {
+  margin: 2rem 0;
+}
+.SubscribeContainerDescTitle p {
+  color: #1b3764;
+  font-size: 1.4rem;
+}
+.SubscribeContainerDescForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: nowrap;
+  margin-top: 2rem;
+}
+.SubscribeContainerDescForm input {
+  padding: 2rem 15rem;
+  border: none;
+}
+.SubscribeContainerDescForm button {
+  font-size: 20px;
+}/*# sourceMappingURL=subscribe.module.css.map */

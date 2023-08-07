@@ -1,0 +1,38 @@
+.form {
+  margin: 0 3rem;
+}
+.form input {
+  border: 2px solid #dce1e9;
+  padding: 2rem;
+  margin: 1rem 0;
+}
+.formName {
+  display: flex;
+  gap: 2rem;
+}
+.formData {
+  display: flex;
+  flex-direction: column;
+}
+.formData textarea {
+  height: 11rem;
+  border: 2px solid #dce1e9;
+  font-size: 1.3rem;
+  padding: 2rem;
+}
+.formAgreement {
+  text-align: left;
+  margin: 1rem 0 1.5rem 0;
+}
+.formAgreement label {
+  font-size: 1.1rem;
+  font-family: "Inter, sans-serif";
+  color: #969aa0;
+}
+.formAgreement input [type=checkbox] {
+  padding: 4rem;
+}/*# sourceMappingURL=form.module.css.map */olor: #969aa0;
+}
+.FormsubmitFormAgreement input [type=checkbox] {
+  padding: 4rem;
+}/*# sourceMappingURL=form.module.css.map */

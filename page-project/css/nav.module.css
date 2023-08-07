@@ -1,0 +1,26 @@
+.navbar {
+  background-color: #1b3764;
+}
+.navbarContainer {
+  justify-content: space-between !important;
+  color: #ffffff;
+  padding: 2rem 0;
+}
+.navbarContainerLogo {
+  display: flex;
+  align-items: center;
+}
+.navbarContainerLogo img {
+  width: 10rem;
+}
+.navbarContainerNavmenu {
+  display: flex;
+  justify-content: space-between;
+}
+.navbarContainerNavmenuItem {
+  padding-left: 3rem;
+  font-size: 1.5rem;
+}
+.navbarContainerNavmenuItem:hover {
+  color: #ffca42;
+}/*# sourceMappingURL=nav.module.css.map */

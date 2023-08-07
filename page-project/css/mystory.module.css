@@ -1,0 +1,205 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  --webkit-appearance: none;
+  border-radius: 0;
+}
+
+.storyContainer p {
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.storyContainerDescAwardItemTitle h4 {
+  font-family: "Cardo", sans-serif;
+  color: #1b3764;
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.storyContainerDescAwardItemNum h5 {
+  font-family: "Cardo", sans-serif;
+  color: #1b3764;
+  font-size: 1.75rem;
+  line-height: 1.3;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.storyContainer p {
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.storyContainerDescAwardItemTitle h4 {
+  font-family: "Cardo", sans-serif;
+  color: #1b3764;
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.storyContainerDescAwardItemNum h5 {
+  font-family: "Cardo", sans-serif;
+  color: #1b3764;
+  font-size: 1.75rem;
+  line-height: 1.3;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.story {
+  padding: 4rem 0;
+}
+.storyContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.storyContainer p {
+  color: #969aa0;
+  font-size: 1.4rem;
+}
+.storyContainerDesc {
+  text-align: left;
+  width: 45%;
+}
+.storyContainerDescAward {
+  margin: 1rem;
+}
+.storyContainerDescAwardItem {
+  display: flex;
+  flex-direction: row;
+}
+.storyContainerDescAwardItemNum h5 {
+  font-size: 2.5rem;
+  color: #1b3764;
+  font-family: "Cardo", sans-serif;
+  background-color: #ffca42;
+  padding: 1rem 1.3rem;
+}
+.storyContainerDescAwardItemNum div {
+  margin-left: 2rem;
+}
+.storyContainerDescAwardItemTitle {
+  padding-left: 2rem;
+}
+.storyContainerDescAwardItemTitle h4 {
+  font-size: 1.5rem;
+  color: #1b3764;
+  font-family: "Cardo", sans-serif;
+  padding-bottom: 0;
+}/*# sourceMappingURL=mystory.module.css.map */

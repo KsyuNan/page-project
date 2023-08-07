@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/components/Readers/readers.module.scss","readers.module.css"],"names":[],"mappings":"AAGE;EACE,aAAA;EACA,qCAAA;EACA,2BAAA;EACA,kBAAA;ACFJ;ADGI;EACE,kBAAA;EACA,aAAA;EACA,wCAAA;EACA,cAAA;ACDN;ADGM;EACE,qBAAA;ACDR;ADIM;EACE,cAAA;EACA,kBAAA;EACA,kBAAA;ACFR;ADKM;EACE,cAAA;EACA,WAAA;ACHR;ADMI;EACE,UAAA;EACA,kBAAA;ACJN","file":"readers.module.css"}

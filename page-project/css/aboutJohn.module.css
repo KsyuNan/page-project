@@ -1,0 +1,189 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  --webkit-appearance: none;
+  border-radius: 0;
+}
+
+.AboutjohnContainerContentDesc p {
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.AboutjohnContainerContentBioItem h6 {
+  font-family: "Cardo", sans-serif;
+  color: #1b3764;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.AboutjohnContainerContentDesc p {
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.AboutjohnContainerContentBioItem h6 {
+  font-family: "Cardo", sans-serif;
+  color: #1b3764;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.Aboutjohn {
+  background-color: #f6f8fc;
+  padding-top: 2rem;
+}
+.AboutjohnContainerImg img {
+  width: 100%;
+  height: auto;
+}
+.AboutjohnContainerContent {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+.AboutjohnContainerContentBio {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 2.5rem;
+  justify-content: space-between;
+  width: 40%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+  margin-right: 4rem;
+}
+.AboutjohnContainerContentBioItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+.AboutjohnContainerContentBioItem h6 {
+  font-size: 2rem;
+  color: #1b3764;
+  font-family: "Cardo", sans-serif;
+}
+.AboutjohnContainerContentBioItem div {
+  color: #969aa0;
+}
+.AboutjohnContainerContentDesc {
+  text-align: left;
+  width: 56%;
+  padding: 3rem 0 0 2rem;
+}
+.AboutjohnContainerContentDesc p {
+  color: #969aa0;
+  font-size: 1.4rem;
+  padding-top: 1.5rem;
+}/*# sourceMappingURL=aboutJohn.module.css.map */

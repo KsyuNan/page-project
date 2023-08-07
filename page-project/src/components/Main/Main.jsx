@@ -1,5 +1,6 @@
 import styles from './main.module.scss'
 import main from '../../assets/main.png'
+import { MainBtn } from '../Button/MainBtn/MainBtn.jsx'
 
 
 export const Main = () => {
@@ -13,7 +14,8 @@ export const Main = () => {
                They’re where authors can connect with readers.
             </p>
             <div className={`${styles.mainContainerContentBtn}`}>
-                <button className={`btn-main`}>Order Today</button>
+               <MainBtn title="Order Today" />
+               {/*<button className={`btn-main`}>Order Today</button> */} 
                 <a className={`btn-read cardo`}>Read free Demo</a>
             </div>
 
@@ -39,7 +41,6 @@ export const Main = () => {
 
            <div className={`${styles.mainContainerImage}`}>
              <img src={main} alt="" />
-
            </div>
         </div>
       </section>

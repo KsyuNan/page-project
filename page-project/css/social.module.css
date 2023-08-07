@@ -1,0 +1,17 @@
+.social {
+  padding-left: 3rem;
+}
+.social a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  text-align: center;
+  margin-right: 0.5rem;
+  color: black;
+}
+.social a:hover {
+  background-color: #ffca42;
+}/*# sourceMappingURL=social.module.css.map */

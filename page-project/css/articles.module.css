@@ -1,0 +1,5 @@
+.ArticlespageContainerCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}/*# sourceMappingURL=articles.module.css.map */ceMappingURL=articles.module.css.map */

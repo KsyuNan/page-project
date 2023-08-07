@@ -1,0 +1,47 @@
+.header {
+  background-color: #1b3764;
+  font-family: Inter;
+}
+.headerContainer {
+  justify-content: space-between !important;
+}
+.headerContainerLogo img {
+  max-width: 100%;
+  height: auto;
+}
+.headerContainerSocial {
+  padding-left: 3rem;
+}
+.headerContainerSocial a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 0.4rem;
+  margin-right: 0.5rem;
+}
+.headerContainerSocial a:hover {
+  background-color: #ffca42;
+}
+.headerContainerNavMenu {
+  color: #ffffff;
+}
+.headerContainerNavMenu li {
+  padding-right: 2.5rem;
+  font-size: 1.5rem;
+  position: relative;
+}
+.headerContainerNavMenu :nth-child(5) {
+  color: black;
+}
+.headerContainerNavMenu :hover {
+  color: #ffca42;
+}
+
+.dropdownNav ul li {
+  position: absolute;
+  display: inline-block;
+}/*# sourceMappingURL=header.module.css.map */

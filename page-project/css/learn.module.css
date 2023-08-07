@@ -1,0 +1,28 @@
+.learnContainer {
+  justify-content: space-between !important;
+}
+.learnContainerCards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  width: 50%;
+}
+.learnContainerDesc {
+  position: relative;
+}
+.learnContainerDesc img {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+.learnContainerDesc img:before {
+  position: absolute;
+  border: 7px solid #ffca42;
+  top: 6rem;
+  left: 4rem;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}/*# sourceMappingURL=learn.module.css.map */

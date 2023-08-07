@@ -1,0 +1,24 @@
+.Maintitle h2 {
+  font-family: "Cardo", sans-serif;
+  color: #1b3764;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.Maintitle {
+  text-align: center;
+  padding-top: 3rem;
+}
+.Maintitle h2 {
+  font-size: 3rem;
+  color: #1b3764;
+  font-family: "Cardo", sans-serif;
+}
+.Maintitle div {
+  padding-top: 1rem;
+  border-bottom: 3px solid #ffca42;
+  width: 3%;
+  margin: 0 auto;
+}/*# sourceMappingURL=maintitle.module.css.map */

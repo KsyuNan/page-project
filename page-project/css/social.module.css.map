@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/components/Nav/components/Social/social.module.scss","social.module.css","../src/styles/_variables.scss"],"names":[],"mappings":"AAEA;EACE,kBAAA;ACDF;ADEE;EACE,WAAA;EACA,YAAA;EACA,aAAA;EACA,mBAAA;EACA,uBAAA;EACA,yBEPQ;EFQR,kBAAA;EACA,oBAAA;EACA,YAAA;ACAJ;ADEI;EACE,yBEfY;ADelB","file":"social.module.css"}

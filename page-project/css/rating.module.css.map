@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/components/Readers/components/Rating/rating.module.scss","rating.module.css","../src/styles/_variables.scss"],"names":[],"mappings":"AAEA;EACE,aAAA;EACA,gBAAA;ACDF;ADGE;EACE,WAAA;EACA,YAAA;EACA,kBAAA;EACA,yBAAA;EACA,oBAAA;ACDJ;ADIE;EACE,yBEdc;ADYlB","file":"rating.module.css"}

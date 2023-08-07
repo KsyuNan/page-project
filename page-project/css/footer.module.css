@@ -1,0 +1,66 @@
+.FooterContainerAuthor p, .FooterContainerContentItemInfo p {
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.FooterContainerContentItem h6, .FooterContainerContent h6 {
+  font-family: "Cardo", sans-serif;
+  color: #1b3764;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.Footer {
+  background-color: #1b3764;
+  color: #fff;
+}
+.Footer > div {
+  text-align: start;
+}
+.FooterContainerContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.FooterContainerContent h6 {
+  font-size: 1.4rem;
+  color: #ffffff;
+  font-family: "Cardo", sans-serif;
+  margin-bottom: 1rem;
+}
+.FooterContainerContentItem h6 {
+  font-size: 2rem;
+  color: #ffffff;
+  font-family: "Cardo", sans-serif;
+}
+.FooterContainerContentItem li {
+  font-size: 1.5rem;
+  color: #b4c7e7;
+  padding-bottom: 1.5rem;
+}
+.FooterContainerContentItemInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.FooterContainerContentItemInfo p {
+  color: #b4c7e7;
+  font-size: 1.4rem;
+  margin-right: 3rem;
+}
+.FooterContainerContentItemInfo p:nth-child(1) {
+  font-size: 1.7rem;
+  padding-bottom: 3rem;
+  color: #ffffff;
+  font-family: "Cardo", sans-serif;
+}
+.FooterContainerAuthor p {
+  color: #969aa0;
+  font-size: 1.4rem;
+}
+.FooterContainerAuthor p a {
+  color: #fff;
+}/*# sourceMappingURL=footer.module.css.map */

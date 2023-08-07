@@ -1,0 +1,16 @@
+.Mainbtn {
+  display: block;
+  padding: 1.6rem 4.5rem;
+  background-color: #ffca42;
+  color: #1b3764;
+  border: 0.3rem solid transparent;
+  font-size: 1.2rem;
+  font-family: "Cardo";
+  font-weight: 600;
+}
+.Mainbtn:hover {
+  border: 0.3rem solid #ffca42;
+  background-color: transparent;
+  color: #ffffff;
+  transition: 0.3s;
+}/*# sourceMappingURL=mainbtn.module.css.map */

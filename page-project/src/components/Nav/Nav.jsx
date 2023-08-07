@@ -3,10 +3,11 @@ import { useState } from 'react'
 import { Link }  from 'react-router-dom'
 import { Dropdown } from './components/Dropdown/Dropdown'
 import logo from '../../assets/logo.png'
-import { Button } from './components/Button/Button'
 import { Social } from './components/Social/Social'
+import { MainBtn } from '../Button/MainBtn/MainBtn'
 
 function Nav (){
+
   const [click, setClick] = useState(false)
   const [dropdown, setDropdown] = useState(false)
 
@@ -95,11 +96,11 @@ function Nav (){
                  className={`${styles.navbarContainerNavmenuItemLinks}`} 
                  onClick={closeMobileMenu} 
                >
-                 <i class="fa-solid fa-cart-shopping"></i>
+                 <i className="fa-solid fa-cart-shopping"></i>
                </Link>
              </li>
           </ul>
-          <Button />
+          <MainBtn title='Order Today' />
          </nav>
         </div>
         </>

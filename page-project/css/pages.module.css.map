@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/components/Pages/pages.module.scss","../src/styles/_variables.scss","pages.module.css"],"names":[],"mappings":"AAEA;EACE,yBCCiB;ACFnB;AFII;EACE,aAAA;EACA,qCAAA;EACA,kCAAA;EACA,qBAAA;EACA,kBAAA;EACA,YAAA;AEFN;AFMM;EACE,eAAA;EACA,cAAA;EACA,kBAAA;AEJR;AFKQ;EACE,cCrBM;ACkBhB","file":"pages.module.css"}
