@@ -1,0 +1,14 @@
+.Orderbtn {
+  padding: 17px 50px;
+  background-color: transparent;
+  border: 3px solid #ffca42;
+  margin: 1.5rem 0;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #1b3764;
+}
+.Orderbtn:hover {
+  background-color: #ffca42;
+  transition: 0.2s;
+}/*# sourceMappingURL=orderbtn.module.css.map */

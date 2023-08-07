@@ -1,3 +1,4 @@
+import { OrderBtn } from '../../../Button/OrderBtn'
 import styles from './authorCard.module.scss'
 
 export const AuthorCard = (props) => {
@@ -10,7 +11,7 @@ export const AuthorCard = (props) => {
                       <span>{props.price}</span>
                       <p>{props.text}</p>
                       <h5 className={`yellow-circle printed`}>{props.type}</h5>
-                      <button className={`authorBtn`}>{props.button}</button>             
+                      <OrderBtn title='Order Now'/>             
                   </div>
             </div>
      </div>

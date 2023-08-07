@@ -1,1 +1,1 @@
-{"version":3,"sources":["../src/components/AuthorBook/author.module.scss","author.module.css"],"names":[],"mappings":"AAII;EACE,aAAA;EACA,qCAAA;EAEA,qBAAA;EACA,kBAAA;ACJN","file":"author.module.css"}
+{"version":3,"sources":["../src/components/AuthorBook/author.module.scss","author.module.css"],"names":[],"mappings":"AAII;EACE,aAAA;EACA,qCAAA;EACA,qBAAA;EACA,kBAAA;ACHN","file":"author.module.css"}

@@ -54,3 +54,7 @@
   font-family: $family;
   @extend %extend-h6;
 }
+
+@mixin btnMain($color) {
+  color: $color;
+}

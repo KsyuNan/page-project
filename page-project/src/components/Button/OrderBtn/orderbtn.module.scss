@@ -1,0 +1,17 @@
+@use "../../../styles/variables";
+
+.Orderbtn {
+  padding: 17px 50px;
+  background-color: transparent;
+  border: 3px solid variables.$secondary-color;
+  margin: 1.5rem 0;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: variables.$primary-color;
+
+  &:hover {
+    background-color: variables.$secondary-color;
+    transition: 0.2s;
+  }
+}

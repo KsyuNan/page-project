@@ -19,7 +19,6 @@ export const AuthorBook = () => {
                 price={dataAuthorBook.price}
                 text={dataAuthorBook.text}
                 type={dataAuthorBook.type}
-                button={dataAuthorBook.button}
               />
             ))}
           </div>
