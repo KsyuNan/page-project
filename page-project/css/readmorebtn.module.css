@@ -1,0 +1,17 @@
+.ReadmoreBtn {
+  position: relative;
+  font-size: 1.4rem;
+  font-family: "Cardo", sans-serif;
+  background-color: transparent;
+  outline: none;
+}
+.ReadmoreBtn:before {
+  content: "";
+  position: absolute;
+  border: 1px solid #ffffff;
+  width: 9.5rem;
+  top: 1.5rem;
+}
+.ReadmoreBtn:hover {
+  color: #ffca42;
+}/*# sourceMappingURL=readmorebtn.module.css.map */

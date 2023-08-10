@@ -1,0 +1,15 @@
+@use "../../styles/variables";
+@import "../../styles/index.scss";
+
+.Storepage {
+  &Container {
+    &Cards {
+      display: flex;
+      flex-direction: row;
+      gap: 1.5rem;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+    }
+  }
+}

@@ -1,3 +1,4 @@
+import { Readmorebtn } from '../../../Button/ReadmoreBtn/Readmore';
 import styles from './cards.module.scss';
 
 export const Cards = (props) => {
@@ -9,7 +10,7 @@ export const Cards = (props) => {
               <h4 className={`cardo`}>{props.title}</h4>
               <p className={`inter`}>{props.text}</p>
             <div className={`${styles.CardDescData} cardo`}>
-              <a className={``} href="#">{props.action}</a>
+              <Readmorebtn title='Read More'/>
               <div>{props.date}</div>
             </div>
            </div>

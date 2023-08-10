@@ -1,6 +1,7 @@
 import styles from './main.module.scss'
 import main from '../../assets/main.png'
 import { MainBtn } from '../Button/MainBtn/MainBtn.jsx'
+import { Readmorebtn } from '../Button/ReadmoreBtn/Readmore'
 
 
 export const Main = () => {
@@ -14,9 +15,9 @@ export const Main = () => {
                They’re where authors can connect with readers.
             </p>
             <div className={`${styles.mainContainerContentBtn}`}>
-               <MainBtn title="Order Today" />
-               {/*<button className={`btn-main`}>Order Today</button> */} 
-                <a className={`btn-read cardo`}>Read free Demo</a>
+               <MainBtn title='Order Today' />
+               <Readmorebtn title='Read free Demo'/> 
+                
             </div>
 
             <div className={` ${styles.mainContainerContentList} flexCenter`}>

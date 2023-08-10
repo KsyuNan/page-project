@@ -1,0 +1,36 @@
+@use "../../../styles/variables";
+@import "../../../styles/index.scss";
+
+.Cardstore {
+  width: 30%;
+  &Content {
+    text-align: left;
+
+    &Img {
+      border: 2.5rem solid variables.$page-background;
+
+      img {
+        width: 100%;
+        height: auto;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.24);
+      }
+    }
+
+    &Title {
+      padding: 2rem 0;
+      h3 {
+        @include h3(variables.$primary-color, 2.5rem, variables.$font-cardo);
+        padding-bottom: 1rem;
+      }
+
+      h5 {
+        @include h5(variables.$secondary-color, 1.8rem, variables.$font-inter);
+        padding-bottom: 1rem;
+      }
+
+      p {
+        @include paragraph(variables.$paragraph-color, 1.4rem);
+      }
+    }
+  }
+}

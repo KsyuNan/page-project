@@ -1,0 +1,19 @@
+@use "../../../styles/variables";
+
+.ReadmoreBtn {
+  position: relative;
+  font-size: 1.4rem;
+  font-family: "Cardo", sans-serif;
+  background-color: transparent;
+  outline: none;
+  &:before {
+    content: "";
+    position: absolute;
+    border: 1px solid variables.$main-font;
+    width: 9.5rem;
+    top: 1.5rem;
+  }
+  &:hover {
+    color: variables.$secondary-color;
+  }
+}
