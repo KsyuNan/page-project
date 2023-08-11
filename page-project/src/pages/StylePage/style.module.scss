@@ -1,9 +1,15 @@
 @use "../../styles/variables";
+@import "../../styles/index.scss";
 
 .Styles {
   &Container {
+    h4 {
+      @include h4(variables.$primary-color, 2.2rem, variables.$font-cardo);
+      text-align: left;
+    }
     &Color {
       align-items: left;
+
       &List {
         display: flex;
         flex-direction: row;
@@ -12,20 +18,21 @@
           text-align: center;
           margin: 2rem 0;
           h5 {
-            margin: 1rem 0;
+            @include h5(variables.$primary-color, 2rem, variables.$font-cardo);
+            margin: 2rem 0;
           }
           &Blue {
-            height: 200px;
+            height: 250px;
             width: 350px;
             background-color: variables.$primary-color;
           }
           &Yellow {
-            height: 200px;
+            height: 250px;
             width: 350px;
             background-color: variables.$secondary-color;
           }
           &Light {
-            height: 200px;
+            height: 250px;
             width: 350px;
             background-color: variables.$font-color;
           }
@@ -35,13 +42,59 @@
 
     &Paragraph {
       p {
-        color: variables.$paragraph-color;
+        @include paragraph(variables.$paragraph-color, 1.4rem);
+        text-align: left;
       }
     }
 
-    &Buttons {
+    &Title {
+      text-align: left;
+      h1 {
+        @include h1(variables.$primary-color, 3.4rem, variables.$font-cardo);
+        padding-bottom: 1.2rem;
+      }
+      h2 {
+        @include h2(variables.$primary-color, 3.2rem, variables.$font-cardo);
+        padding-bottom: 1.2rem;
+      }
+
+      h3 {
+        @include h3(variables.$primary-color, 3rem, variables.$font-cardo);
+        padding-bottom: 1.2rem;
+      }
+      h4 {
+        @include h4(variables.$primary-color, 2.6rem, variables.$font-cardo);
+        padding-bottom: 1.2rem;
+      }
+      h5 {
+        @include h5(variables.$primary-color, 2.4rem, variables.$font-cardo);
+        padding-bottom: 1.2rem;
+      }
+      h6 {
+        @include h6(variables.$primary-color, 2.2rem, variables.$font-cardo);
+        padding-bottom: 1.2rem;
+      }
+    }
+
+    &List {
+      p {
+        @include paragraph(variables.$primary-color, 1.4rem);
+        text-align: left;
+      }
       ul {
+        margin-bottom: 2rem;
+      }
+
+      ul > li {
+        margin-left: 1rem;
         list-style-type: circle;
+      }
+
+      ol > li {
+        list-style-type: decimal;
+        margin-left: 1rem;
+        font-size: 1.4rem;
+        font-family: variables.$font-cardo;
       }
     }
 
@@ -50,9 +103,13 @@
       &Item {
         padding: 5rem 3rem;
         background: variables.$primary-color;
-        color: variables.$main-font;
         border-radius: 5px;
         position: relative;
+
+        p {
+          @include paragraph(variables.$main-font, 1.4rem);
+          text-align: left;
+        }
 
         &:before {
           position: absolute;

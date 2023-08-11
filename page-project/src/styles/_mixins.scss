@@ -20,6 +20,13 @@
   @extend %extend-paragraph;
 }
 
+@mixin h1($color, $size, $family) {
+  font-size: $size;
+  color: $color;
+  font-family: $family;
+  @extend %extend-h1;
+}
+
 @mixin h2($color, $size, $family) {
   font-size: $size;
   color: $color;

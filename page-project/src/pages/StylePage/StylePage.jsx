@@ -1,6 +1,8 @@
 import styles from './style.module.scss'
 import {Title} from '../../components/Title/Title'
 import { Form } from '../ContactPage/components/Form/Form'
+import { MainBtn } from '../../components/Button/MainBtn/MainBtn'
+import { OrderBtn } from '../../components/Button/OrderBtn'
 
 export const StylePage = () => {
     return (
@@ -36,6 +38,8 @@ export const StylePage = () => {
 
                 <div className={`${styles.StylesContainerButtons} paddings`}>
                    <h4>Button</h4>
+                   <MainBtn title='Button Text' />
+                   <OrderBtn title='Button Text' />
                 </div>
 
                 <div className={`${styles.StylesContainerTitle} paddings`}>
@@ -52,15 +56,15 @@ export const StylePage = () => {
                 <div className={`${styles.StylesContainerList} paddings`}>
                    <h4>List</h4>
                   <ul>
-                    <li><p className={`inter`}>They has been helping readers, music lovers, and videophiles find quality material.</p></li>
-                    <li><p className={`inter`}>We help physical bookstores manage their overstock to the book inventory.</p></li>
-                    <li><p className={`inter`}>Bookstore serving up the full spectrum of Black literature and wine black books.</p></li>
+                    <li><p>They has been helping readers, music lovers, and videophiles find quality material.</p></li>
+                    <li><p>We help physical bookstores manage their overstock to the book inventory.</p></li>
+                    <li><p>Bookstore serving up the full spectrum of Black literature and wine black books.</p></li>
                   </ul>
 
                   <ol>
-                    <li><p className={`inter`}>They has been helping readers, music lovers, and videophiles find quality material.</p></li>
-                    <li><p className={`inter`}>We help physical bookstores manage their overstock to the book inventory.</p></li>
-                    <li><p className={`inter`}>Bookstore serving up the full spectrum of Black literature and wine black books.</p></li>
+                    <li><p>They has been helping readers, music lovers, and videophiles find quality material.</p></li>
+                    <li><p>We help physical bookstores manage their overstock to the book inventory.</p></li>
+                    <li><p>Bookstore serving up the full spectrum of Black literature and wine black books.</p></li>
                   </ol>
                 </div>
 
@@ -68,7 +72,7 @@ export const StylePage = () => {
                     <h4>Blockquote</h4>
 
                     <div className={`${styles.StylesContainerQuoteItem}`}>
-                        <p className={`inter`}>“ We believe that bookstores are essential to a healthy culture. 
+                        <p>“ We believe that bookstores are essential to a healthy culture. 
                             They’re where authors can connect with readers. new writers, <br/>
                             where children get hooked on the thrill of reading that can 
                             last a lifetime.“</p>
