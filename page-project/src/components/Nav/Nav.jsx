@@ -1,6 +1,6 @@
 import styles from './nav.module.scss'
 import { useState } from 'react'
-import { Link }  from 'react-router-dom'
+import { Link}  from 'react-router-dom'
 import { Dropdown } from './components/Dropdown/Dropdown'
 import logo from '../../assets/logo.png'
 import { Social } from './components/Social/Social'
@@ -29,6 +29,7 @@ function Nav (){
       setDropdown(false);
     }
   };
+
 
     return (
         <>
@@ -100,7 +101,9 @@ function Nav (){
                </Link>
              </li>
           </ul>
-          <MainBtn title='Order Today' />
+          <Link to="/contact-us">
+               <MainBtn title='Order Today'/>
+          </Link>
          </nav>
         </div>
         </>

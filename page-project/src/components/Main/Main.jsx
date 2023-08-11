@@ -2,6 +2,7 @@ import styles from './main.module.scss'
 import main from '../../assets/main.png'
 import { MainBtn } from '../Button/MainBtn/MainBtn.jsx'
 import { Readmorebtn } from '../Button/ReadmoreBtn/Readmore'
+import { Link } from 'react-router-dom'
 
 
 export const Main = () => {
@@ -15,8 +16,12 @@ export const Main = () => {
                They’re where authors can connect with readers.
             </p>
             <div className={`${styles.mainContainerContentBtn}`}>
-               <MainBtn title='Order Today' />
-               <Readmorebtn title='Read free Demo'/> 
+               <Link to='/our-store'>
+                  <MainBtn title='Order Today' />
+               </Link>
+               <Link to='/contact-us'>
+                 <Readmorebtn title='Read free Demo'/> 
+               </Link>
                 
             </div>
 
