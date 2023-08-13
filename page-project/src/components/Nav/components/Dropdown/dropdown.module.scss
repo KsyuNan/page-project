@@ -1,0 +1,24 @@
+.secondary-menu {
+  display: flex;
+  width: 450px;
+  max-width: none;
+  padding: 20px 40px 30px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 1px 1px 10px 0 rgba(0,0,0,.17);
+
+  li {
+    width: 100%;
+    margin-left: 0;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+    color: #1b3764;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: .01em;
+  }
+}

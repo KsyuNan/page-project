@@ -22,8 +22,11 @@
       justify-content: space-between;
 
       &Item {
-        padding-left: 3rem;
+        padding: 24px 24px 20px;
         font-size: 1.5rem;
+        a {
+          position: relative;
+        }
         &:hover {
           color: variables.$secondary-color;
         }

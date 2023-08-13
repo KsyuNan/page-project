@@ -3,7 +3,7 @@ export const DataItems = [
     id: 1,
     title: 'Pages',
     path: '/pages',
-    cName: 'dropdown-link'
+    cName: 'dropdown-link title-text'
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const DataItems = [
     id: 5,
     title: 'Utility Pages',
     path: '/utility-pages',
-    cName: 'dropdown-link'
+    cName: 'dropdown-link title-text'
   },
   {
     id: 6,
