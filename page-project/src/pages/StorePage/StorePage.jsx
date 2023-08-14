@@ -2,6 +2,7 @@ import styles from './store.module.scss';
 import  infoCard from './StoreCard/index';
 import { Title } from '../../components/Title/Title';
 import { StoreCard } from './StoreCard/StoreCard';
+
 export const StorePage = () => {
     return (
         <div className={`${styles.Storepage} `}>

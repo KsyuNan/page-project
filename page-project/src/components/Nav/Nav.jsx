@@ -73,10 +73,10 @@ function Nav (){
                
              </li>
              <li className={`${styles.navbarContainerNavmenuItem} inter`}>
-               <Link 
-                to='/' 
+               <Link
                 className={`${styles.navbarContainerNavmenuItemLinks}`} 
-                onClick={closeMobileMenu} 
+                onMouseEnter={onMouseEnter}
+                onMouseLeave={onMouseLeave}
                >
                  Pages <i className='fas fa-caret-down' />
                  {dropdown && <Dropdown />}
